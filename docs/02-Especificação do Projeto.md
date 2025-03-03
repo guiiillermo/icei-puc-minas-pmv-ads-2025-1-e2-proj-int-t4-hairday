@@ -85,13 +85,13 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| A hospedagem está restrita à plataforma Azure       |
-|03| Não deverão ser utilizados frameworks como React no front-end, restringindo-se ao HTML, CSS, JavaScript e Bootstrap |
-|04| O back-end deve ser implemento utilizando-se C# com o framework ASP.NET |
-|05| O site deve seguir diretrizes éticas, não permitindo a publicação de conteúdos ofensivos, discriminatórios ou que violem códigos de conduta | 
-|06| A base de dados deve ser relacional (por exemplo, SQL Server ou MySQL) e possibilitar pelo menos três operações CRUD, incluindo gerenciamento de clientes, barbearias e agendamentos |  
-|07| O conteúdo da aplicação deve respeitar princípios éticos, não permitindo informações ofensivas, discriminatórias ou contrárias às normas estabelecidas. |
+|RE-01| O projeto deverá ser entregue até o final do semestre |
+|RE-02| A hospedagem está restrita à plataforma Azure       |
+|RE-03| Não deverão ser utilizados frameworks como React no front-end, restringindo-se ao HTML, CSS, JavaScript e Bootstrap |
+|RE-04| O back-end deve ser implemento utilizando-se C# com o framework ASP.NET |
+|RE-05| O site deve seguir diretrizes éticas, não permitindo a publicação de conteúdos ofensivos, discriminatórios ou que violem códigos de conduta | 
+|RE-06| A base de dados deve ser relacional (por exemplo, SQL Server ou MySQL) e possibilitar pelo menos três operações CRUD, incluindo gerenciamento de clientes, barbearias e agendamentos |  
+|RE-07| O conteúdo da aplicação deve respeitar princípios éticos, não permitindo informações ofensivas, discriminatórias ou contrárias às normas estabelecidas. |
  
 ## Diagrama de Casos de Uso
 
