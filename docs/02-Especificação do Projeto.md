@@ -51,18 +51,34 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| A aplicação deve permitir que o usuário avalie uma agência de intercâmbio com base na sua experiência| ALTA | 
-|RF-002| A aplicação deve permitir que o usuário inclua comentários ao fazer uma avaliação de uma agência de intercâmbio    | ALTA |
-|RF-003| A aplicação deve permitir que o usuário consulte todas as agências de intercâmbio cadastradas ordenando-as com base em suas notas | ALTA |
+| ID     | Descrição do Requisito | Prioridade |  
+|--------|---------------------------------------------------------|-----------|  
+| RF-001 | A aplicação deve permitir o cadastro de clientes com nome, e-mail, telefone e senha. | ALTA |  
+| RF-002 | A aplicação deve permitir o login de clientes utilizando e-mail e senha. | ALTA |  
+| RF-003 | A aplicação deve permitir que barbearias se cadastrem informando nome, endereço, telefone e horário de funcionamento. | ALTA |  
+| RF-004 | A aplicação deve permitir que barbearias cadastrem profissionais com nome, especialidade e horários de trabalho. | ALTA |  
+| RF-005 | A aplicação deve exibir uma lista de barbearias disponíveis para os clientes. | ALTA |  
+| RF-006 | A aplicação deve permitir que clientes filtrem as barbearias por proximidade, preço médio e uso de produtos veganos. | MÉDIA |  
+| RF-007 | A aplicação deve exibir detalhes da barbearia, como endereço, telefone, horários de funcionamento e serviços oferecidos. | ALTA |  
+| RF-008 | A aplicação deve permitir que clientes selecionem uma barbearia e visualizem os serviços disponíveis. | ALTA |  
+| RF-009 | A aplicação deve permitir que clientes escolham um profissional específico dentro da barbearia. | ALTA |  
+| RF-010 | A aplicação deve exibir os horários disponíveis com base na agenda do profissional selecionado. | ALTA |  
+| RF-011 | A aplicação deve permitir que clientes realizem a reserva de um horário específico. | ALTA |  
+| RF-012 | A aplicação deve permitir que barbearias visualizem a lista de agendamentos realizados. | ALTA |  
+| RF-013 | A aplicação deve permitir que barbearias alterem horários disponíveis. | ALTA |  
+| RF-014 | A aplicação deve permitir que clientes avaliem a barbearia após o atendimento. | MÉDIA |  
+| RF-015 | A aplicação deve calcular uma média de avaliações para cada barbearia e exibi-la no perfil da barbearia. | MÉDIA |  
+
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| A aplicação deve ser responsiva | MÉDIA | 
-|RNF-002| A aplicação deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+| ID     | Descrição do Requisito | Prioridade |  
+|--------|---------------------------------------------------------|-----------|  
+| RNF-001 | A aplicação deve ser desenvolvida utilizando HTML, CSS, JavaScript e C#, com o back-end em ASP.NET. | ALTA |  
+| RNF-002 | O sistema deverá ter uma usabilidade simples para maior compreensão do usuário. | ALTA |  
+| RNF-003 | A aplicação deve ser hospedada na plataforma Azure, garantindo escalabilidade e alta disponibilidade. | ALTA |  
+| RNF-004 | O tempo de resposta das principais funcionalidades da aplicação não deve ultrapassar 3 segundos em condições normais de uso. | MÉDIA |  
+| RNF-005 | O sistema deverá ter um desempenho eficiente de forma a lidar com vários usuários de uma única vez. | MÉDIA |  
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
