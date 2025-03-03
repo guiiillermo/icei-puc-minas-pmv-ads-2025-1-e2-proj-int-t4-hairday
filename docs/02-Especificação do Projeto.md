@@ -33,8 +33,11 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Lucas Mendes |        O profissional pode visualizar e editar seus horários   |         Quer gerenciar os horários para evitar furos e atrasos      |
-|Lucas Mendes       |        O profissional pode aceitar ou recusar solicitações de agendamento.        | Que eu possa sanar todas as minhas dúvidas rapidamente |
+|João Silva |   Agendar horários de maneira mais rápida     |        Agendar cortes rápidos sem esperar    |
+|Carlos sousa     |     Escolha do profissional preferido.           | Manter o hábito de cortar com o mesmo profissional. |
+|Pedro Oliveira   |  Notificação automática antes do horário agendado.|Receber lembretes para não esquecer o compromisso |      
+|Lucas Ferreira   | Opções de cortes   |Ter flexibilidade no horário  |
+|Marcos Lima      |  Histórico de cortes para referência               |  Ter a segurança de que sua reserva está garantida|
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
@@ -53,8 +56,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 | ID     | Descrição do Requisito | Prioridade |  
 |--------|---------------------------------------------------------|-----------|  
-| RF-001 | A aplicação deve permitir o cadastro de clientes com nome, e-mail, telefone e senha. | ALTA |  
-| RF-002 | A aplicação deve permitir o login de clientes utilizando e-mail e senha. | ALTA |  
+| RF-001 |O sistema deve permitir que os clientes se cadastrem com nome, e-mail e telefone.  | ALTA |  
+| RF-002 |  O sistema deve permitir que os barbeiros se cadastrem com nome, especialidade e horários disponíveis. | ALTA |  
 | RF-003 | A aplicação deve permitir que barbearias se cadastrem informando nome, endereço, telefone e horário de funcionamento. | ALTA |  
 | RF-004 | A aplicação deve permitir que barbearias cadastrem profissionais com nome, especialidade e horários de trabalho. | ALTA |  
 | RF-005 | A aplicação deve exibir uma lista de barbearias disponíveis para os clientes. | ALTA |  
@@ -117,7 +120,8 @@ O diagrama de casos de uso é o próximo passo após a elicitação de requisito
 
 As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
 
-> **Links Úteis**:
+> **Links Úteis**:![Caso de Uso UML - Página 2 (2)](https://github.com/user-attachments/assets/d7595db2-b93f-400e-b055-6d3cb452ebbd)
+
 > - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
 > - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
 > - [Lucidchart](https://www.lucidchart.com/)
