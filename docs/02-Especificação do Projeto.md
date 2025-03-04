@@ -7,12 +7,17 @@ Definição do problema e ideia de solução a partir da perspectiva do usuário
 Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
 ## Personas
+![Personas docx 1_page-0001](https://github.com/user-attachments/assets/bf0d5dcf-e9c1-4413-aa42-9bb5039e921c)
+![Documento 2 docx_page-0001](https://github.com/user-attachments/assets/d51fa0a9-5a6e-400c-9920-81e785429b91)
+![Documento 3 docx_page-0001](https://github.com/user-attachments/assets/601320ed-4a64-4614-80d8-193424dd2286)
+![Documento 4 docx_page-0001](https://github.com/user-attachments/assets/9290782b-28ca-4bb2-9869-7011664128db)
+![Documento 5 docx_page-0001](https://github.com/user-attachments/assets/c87c2b86-cad9-49cb-89bc-362ed74e47ce)
+
+
 
 Identifique, em torno de, 5 personas. Para cada persona, lembre-se de descrever suas angústicas, frustrações e expectativas de vida relacionadas ao problema. Além disso, defina uma "aparência" para a persona. Para isso, você poderá utilizar sites como [https://this-person-does-not-exist.com/pt#google_vignette](https://this-person-does-not-exist.com/pt) ou https://thispersondoesnotexist.com/ 
 
-Utilize também como referência o exemplo abaixo:
 
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/IntApplicationProject-Template/blob/main/docs/img/AnaClara1.png" alt="Persona1"/>
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
