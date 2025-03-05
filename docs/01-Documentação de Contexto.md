@@ -25,12 +25,9 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Atualmente, vivemos em um mundo cada vez mais digital e dinâmico, onde o tempo é um recurso extremamente valioso. Muitas pessoas têm rotinas corridas e buscam soluções práticas que otimizem seu dia a dia. No setor de barbearias, o processo de agendamento ainda é, em muitos casos, manual e burocrático, exigindo ligações telefônicas ou trocas de mensagens que podem ser demoradas e pouco eficientes.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo. Ou, o grupo poderá consultar e justificar o impacto do problema para o público-alvo por meio de pesquisas em outras fontes. Neste caso, é essencial que todos os dados apresentados estejam acompanhados de suas fontes (conforme padrão ABNT).
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Pensando nisso, este projeto tem como objetivo agilizar e modernizar o processo de marcação de horários em barbearias, proporcionando mais comodidade tanto para os clientes quanto para os profissionais. Através de uma plataforma digital intuitiva, os usuários poderão encontrar barbearias, filtrar opções conforme suas preferências e agendar serviços de forma rápida e prática.
 
 ## Público-Alvo
 
