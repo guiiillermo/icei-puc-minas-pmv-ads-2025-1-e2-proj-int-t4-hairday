@@ -31,10 +31,15 @@ Pensando nisso, este projeto tem como objetivo agilizar e modernizar o processo 
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
+Clientes:
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+• Pessoas que buscam serviços de barbearia com mais comodidade e eficiência.
+• Usuários que desejam comparar preços de diversas barbearias antes de escolher a melhor opção.
+• Clientes que preferem reservar horários online para evitar esperas.
+• Pessoas que valorizam diferenciais, como o uso de produtos veganos ou o atendimento por um profissional específico.
+  
+Barbearias e Profissionais:
+
+• Donos de barbearias que querem gerenciar seus agendamentos de forma mais organizada.
+• Profissionais autônomos que desejam otimizar sua agenda, reduzindo períodos ociosos e aumentando a eficiência no atendimento.
+• Estabelecimentos que oferecem serviços diferenciados e querem se destacar no mercado.
