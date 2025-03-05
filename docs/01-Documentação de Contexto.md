@@ -34,12 +34,12 @@ Pensando nisso, este projeto tem como objetivo agilizar e modernizar o processo 
 Clientes:
 
 • Pessoas que buscam serviços de barbearia com mais comodidade e eficiência.<br>
-• Usuários que desejam comparar preços de diversas barbearias antes de escolher a melhor opção.
-• Clientes que preferem reservar horários online para evitar esperas.
-• Pessoas que valorizam diferenciais, como o uso de produtos veganos ou o atendimento por um profissional específico.
+• Usuários que desejam comparar preços de diversas barbearias antes de escolher a melhor opção.<br>
+• Clientes que preferem reservar horários online para evitar esperas.<br>
+• Pessoas que valorizam diferenciais, como o uso de produtos veganos ou o atendimento por um profissional específico.<br>
   
-Barbearias e Profissionais:
+Barbearias e Profissionais:<br>
 
-• Donos de barbearias que querem gerenciar seus agendamentos de forma mais organizada.
-• Profissionais autônomos que desejam otimizar sua agenda, reduzindo períodos ociosos e aumentando a eficiência no atendimento.
-• Estabelecimentos que oferecem serviços diferenciados e querem se destacar no mercado.
+• Donos de barbearias que querem gerenciar seus agendamentos de forma mais organizada.<br>
+• Profissionais autônomos que desejam otimizar sua agenda, reduzindo períodos ociosos e aumentando a eficiência no atendimento.<br>
+• Estabelecimentos que oferecem serviços diferenciados e querem se destacar no mercado.<br>
