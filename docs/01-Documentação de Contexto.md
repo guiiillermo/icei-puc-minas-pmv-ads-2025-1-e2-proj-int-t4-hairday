@@ -33,7 +33,7 @@ Pensando nisso, este projeto tem como objetivo agilizar e modernizar o processo 
 
 Clientes:
 
-• Pessoas que buscam serviços de barbearia com mais comodidade e eficiência.
+• Pessoas que buscam serviços de barbearia com mais comodidade e eficiência.<br>
 • Usuários que desejam comparar preços de diversas barbearias antes de escolher a melhor opção.
 • Clientes que preferem reservar horários online para evitar esperas.
 • Pessoas que valorizam diferenciais, como o uso de produtos veganos ou o atendimento por um profissional específico.
