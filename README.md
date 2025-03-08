@@ -19,7 +19,7 @@ O objetivo geral desse projeto é o desenvolvimento de uma aplicação interativ
 
 ## Orientador
 
-* Nome completo do professor 1
+* Carlos Alberto Marques Pietrobon
 
 ## Instruções de utilização
 
