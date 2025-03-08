@@ -1,19 +1,21 @@
 # TÍTULO DO PROJETO
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Desenvolvimento de uma Aplicação Interativa`
 
-`SEMESTRE`
+`2º semestre/2025`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O objetivo geral desse projeto é o desenvolvimento de uma aplicação interativa que permita a interação entre profissionais e consumidores no mercado estético, principalmente relacionado a corte de cabelos.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Vitor Bisi Vieira
+* Marcos Eduardo Fortunato
+* Rafael Henrique dos Santos Silva
+* Isaque Albertini Silva Oliveira
+* Guilherme Henrique Cardoso Souza
+* Guilherme Moreira Santos
 
 ## Orientador
 
