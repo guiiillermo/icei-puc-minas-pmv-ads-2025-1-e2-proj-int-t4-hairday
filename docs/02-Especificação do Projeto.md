@@ -124,8 +124,9 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
 
 As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
+![41b95c17-9f83-4f34-8e5b-ea5de9faf08a](https://github.com/user-attachments/assets/22248cf5-c32a-416c-b3c9-516294806998)
 
-> **Links Úteis**:![Caso de Uso UML - Página 2 (2)](https://github.com/user-attachments/assets/d7595db2-b93f-400e-b055-6d3cb452ebbd)
+> **Links Úteis**:
 
 > - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
 > - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
