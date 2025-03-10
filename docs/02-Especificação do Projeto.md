@@ -90,13 +90,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 | **Dono da Barbearia** | Definir serviços e horários    | O dono da barbearia pode configurar os serviços oferecidos e definir os horários disponíveis. |
 | **Dono da Barbearia** | Cadastrar barbearia e profissionais | O dono da barbearia pode registrar sua barbearia e adicionar os profissionais que trabalham nela. |
 
-
-
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
-
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
-![41b95c17-9f83-4f34-8e5b-ea5de9faf08a](https://github.com/user-attachments/assets/22248cf5-c32a-416c-b3c9-516294806998)
-
 > **Links Úteis**:
 
 > - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
