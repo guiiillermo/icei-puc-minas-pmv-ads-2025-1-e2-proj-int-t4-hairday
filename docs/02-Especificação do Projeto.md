@@ -4,13 +4,9 @@
 
 Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
-
 ## Apresentação do Projeto
 
 https://github.com/user-attachments/assets/d4e19356-2d7c-4c0b-94d8-44469b37a687
-
-
 
 ## Personas
 ![196e5bfd-dace-4661-864e-6a32efd4830e](https://github.com/user-attachments/assets/27c73893-44a1-4f98-9c34-57a37abb0119)
@@ -18,25 +14,6 @@ https://github.com/user-attachments/assets/d4e19356-2d7c-4c0b-94d8-44469b37a687
 ![c1f048fa-6fb7-4555-94af-d6b9faaf6b37](https://github.com/user-attachments/assets/ec6b9e0d-0427-4d4b-ab0f-3d871e7bd2e0)
 ![63cc1fe4-ec2f-4e2c-99e7-5e41e566fc0f](https://github.com/user-attachments/assets/d45b91af-e110-46e3-bd12-b240bdcc1067)
 ![e469866f-a10b-4b5f-83e9-2ea0068d0026](https://github.com/user-attachments/assets/6685d802-deb3-4c3f-8477-86880a0bb72c)
-
-
-
-Identifique, em torno de, 5 personas. Para cada persona, lembre-se de descrever suas angústicas, frustrações e expectativas de vida relacionadas ao problema. Além disso, defina uma "aparência" para a persona. Para isso, você poderá utilizar sites como [https://this-person-does-not-exist.com/pt#google_vignette](https://this-person-does-not-exist.com/pt) ou https://thispersondoesnotexist.com/ 
-
-
-
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
-> **Links Úteis**:
-> 
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 
 ## Histórias de Usuários
 
@@ -49,15 +26,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Pedro Oliveira   |  Notificação automática antes do horário agendado.|Receber lembretes para não esquecer o compromisso |      
 |Lucas Ferreira   | Opções de cortes   |Ter flexibilidade no horário  |
 |Marcos Lima      |  Histórico de cortes para referência               |  Ter a segurança de que sua reserva está garantida|
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
 
