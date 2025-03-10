@@ -103,6 +103,20 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ![image](https://github.com/user-attachments/assets/ba122734-0db5-4e56-bbbb-664376f4249e)
 
+Aqui está a tabela representando o diagrama de casos de uso:
+
+| Ator               | Caso de Uso                         | Descrição |
+|--------------------|----------------------------------|-----------|
+| **Cliente**       | Criar conta / Login              | Permite que o cliente crie uma conta ou faça login no sistema. |
+| **Cliente**       | Cancelar / Reagendar             | O cliente pode cancelar ou reagendar um horário previamente marcado. |
+| **Cliente**       | Escolher barbearia e profissional | O cliente pode selecionar uma barbearia e um profissional de sua preferência. |
+| **Cliente**       | Buscar barbearia                 | O cliente pode pesquisar barbearias disponíveis no sistema. |
+| **Cliente**       | Reservar horário                 | O cliente pode agendar um horário para um serviço na barbearia. |
+| **Cliente** e **Dono da Barbearia** | Avaliar serviço | O cliente pode avaliar o serviço recebido e o dono da barbearia pode visualizar essas avaliações. |
+| **Dono da Barbearia** | Definir serviços e horários    | O dono da barbearia pode configurar os serviços oferecidos e definir os horários disponíveis. |
+| **Dono da Barbearia** | Cadastrar barbearia e profissionais | O dono da barbearia pode registrar sua barbearia e adicionar os profissionais que trabalham nela. |
+
+
 
 O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
 
