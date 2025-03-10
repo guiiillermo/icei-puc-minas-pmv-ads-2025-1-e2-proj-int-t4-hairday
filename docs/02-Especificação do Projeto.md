@@ -13,12 +13,17 @@ https://github.com/user-attachments/assets/d4e19356-2d7c-4c0b-94d8-44469b37a687
 
 
 ## Personas
+![196e5bfd-dace-4661-864e-6a32efd4830e](https://github.com/user-attachments/assets/27c73893-44a1-4f98-9c34-57a37abb0119)
+![687bd2a2-7397-4440-a80d-439175ebd1c4](https://github.com/user-attachments/assets/c8a51647-a5ff-4200-8991-62a33d05249d)
+![c1f048fa-6fb7-4555-94af-d6b9faaf6b37](https://github.com/user-attachments/assets/ec6b9e0d-0427-4d4b-ab0f-3d871e7bd2e0)
+![63cc1fe4-ec2f-4e2c-99e7-5e41e566fc0f](https://github.com/user-attachments/assets/d45b91af-e110-46e3-bd12-b240bdcc1067)
+![e469866f-a10b-4b5f-83e9-2ea0068d0026](https://github.com/user-attachments/assets/6685d802-deb3-4c3f-8477-86880a0bb72c)
+
+
 
 Identifique, em torno de, 5 personas. Para cada persona, lembre-se de descrever suas angústicas, frustrações e expectativas de vida relacionadas ao problema. Além disso, defina uma "aparência" para a persona. Para isso, você poderá utilizar sites como [https://this-person-does-not-exist.com/pt#google_vignette](https://this-person-does-not-exist.com/pt) ou https://thispersondoesnotexist.com/ 
 
-Utilize também como referência o exemplo abaixo:
 
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/IntApplicationProject-Template/blob/main/docs/img/AnaClara1.png" alt="Persona1"/>
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
@@ -39,8 +44,11 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Lucas Mendes |        O profissional pode visualizar e editar seus horários   |         Quer gerenciar os horários para evitar furos e atrasos      |
-|Lucas Mendes       |        O profissional pode aceitar ou recusar solicitações de agendamento.        | Que eu possa sanar todas as minhas dúvidas rapidamente |
+|João Silva |   Agendar horários de maneira mais rápida     |        Agendar cortes rápidos sem esperar    |
+|Carlos sousa     |     Escolha do profissional preferido.           | Manter o hábito de cortar com o mesmo profissional. |
+|Pedro Oliveira   |  Notificação automática antes do horário agendado.|Receber lembretes para não esquecer o compromisso |      
+|Lucas Ferreira   | Opções de cortes   |Ter flexibilidade no horário  |
+|Marcos Lima      |  Histórico de cortes para referência               |  Ter a segurança de que sua reserva está garantida|
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
@@ -59,8 +67,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 | ID     | Descrição do Requisito | Prioridade |  
 |--------|---------------------------------------------------------|-----------|  
-| RF-001 | A aplicação deve permitir o cadastro de clientes com nome, e-mail, telefone e senha. | ALTA |  
-| RF-002 | A aplicação deve permitir o login de clientes utilizando e-mail e senha. | ALTA |  
+| RF-001 |O sistema deve permitir que os clientes se cadastrem com nome, e-mail e telefone.  | ALTA |  
+| RF-002 |  O sistema deve permitir que os barbeiros se cadastrem com nome, especialidade e horários disponíveis. | ALTA |  
 | RF-003 | A aplicação deve permitir que barbearias se cadastrem informando nome, endereço, telefone e horário de funcionamento. | ALTA |  
 | RF-004 | A aplicação deve permitir que barbearias cadastrem profissionais com nome, especialidade e horários de trabalho. | ALTA |  
 | RF-005 | A aplicação deve exibir uma lista de barbearias disponíveis para os clientes. | ALTA |  
@@ -120,8 +128,10 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
 
 As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
+![41b95c17-9f83-4f34-8e5b-ea5de9faf08a](https://github.com/user-attachments/assets/22248cf5-c32a-416c-b3c9-516294806998)
 
 > **Links Úteis**:
+
 > - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
 > - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
 > - [Lucidchart](https://www.lucidchart.com/)
