@@ -89,11 +89,3 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 | **Cliente** e **Dono da Barbearia** | Avaliar serviço | O cliente pode avaliar o serviço recebido e o dono da barbearia pode visualizar essas avaliações. |
 | **Dono da Barbearia** | Definir serviços e horários    | O dono da barbearia pode configurar os serviços oferecidos e definir os horários disponíveis. |
 | **Dono da Barbearia** | Cadastrar barbearia e profissionais | O dono da barbearia pode registrar sua barbearia e adicionar os profissionais que trabalham nela. |
-
-> **Links Úteis**:
-
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
