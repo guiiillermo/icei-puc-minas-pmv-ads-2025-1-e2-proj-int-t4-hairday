@@ -73,7 +73,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |RE-04| O back-end deve ser implemento utilizando-se C# com o framework ASP.NET |
 |RE-05| O site deve seguir diretrizes éticas, não permitindo a publicação de conteúdos ofensivos, discriminatórios ou que violem códigos de conduta | 
 |RE-06| A base de dados deve ser relacional (por exemplo, SQL Server ou MySQL) e possibilitar pelo menos três operações CRUD, incluindo gerenciamento de clientes, barbearias e agendamentos |  
-|RE-07| O conteúdo da aplicação deve respeitar princípios éticos, não permitindo informações ofensivas, discriminatórias ou contrárias às normas estabelecidas. |
  
 ## Diagrama de Casos de Uso
 
