@@ -103,7 +103,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ![image](https://github.com/user-attachments/assets/ba122734-0db5-4e56-bbbb-664376f4249e)
 
-Aqui está a tabela representando o diagrama de casos de uso:
 
 | Ator               | Caso de Uso                         | Descrição |
 |--------------------|----------------------------------|-----------|
