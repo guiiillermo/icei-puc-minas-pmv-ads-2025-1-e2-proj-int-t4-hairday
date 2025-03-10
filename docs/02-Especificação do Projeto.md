@@ -76,7 +76,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
  
 ## Diagrama de Casos de Uso
 
-![image](https://github.com/user-attachments/assets/ba122734-0db5-4e56-bbbb-664376f4249e)
+![casos de uso](https://github.com/user-attachments/assets/6939b8ce-c5bd-4760-9194-14aa1ff51c9e)
+
 
 
 | Ator               | Caso de Uso                         | Descrição |
