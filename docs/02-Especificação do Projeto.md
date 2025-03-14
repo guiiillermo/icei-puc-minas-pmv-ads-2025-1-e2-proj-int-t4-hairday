@@ -89,6 +89,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 | **Cliente**       | Buscar barbearia                 | O cliente pode pesquisar barbearias disponíveis no sistema. |
 | **Cliente**       | Reservar horário                 | O cliente pode agendar um horário para um serviço na barbearia. |
 | **Cliente** | Avaliar serviço | O cliente pode avaliar o serviço recebido |
-| **Dono da Barbearia**, **Barbeiro** e Cliente| Ver avaliações | O dono da barbearia, barbeiro e o cliente pode visualizar essas avaliações. |
+| **Dono da Barbearia**, **Barbeiro** e **Cliente** | Ver avaliações | O dono da barbearia, barbeiro e o cliente pode visualizar essas avaliações. |
 | **Barbeiro** | Definir serviços e horários    | O barbeario(a) pode configurar os serviços oferecidos e definir os horários disponíveis. |
 | **Dono da Barbearia** | Cadastrar barbearia e profissionais | O dono da barbearia pode registrar sua barbearia e adicionar os profissionais que trabalham nela. |
