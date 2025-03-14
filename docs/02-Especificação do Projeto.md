@@ -56,10 +56,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | ID     | Descrição do Requisito | Prioridade |  
 |--------|---------------------------------------------------------|-----------|  
 | RNF-001 | A aplicação deve ser desenvolvida utilizando HTML, CSS, JavaScript e C#, com o back-end em ASP.NET. | ALTA |  
-| RNF-002 | O sistema deverá ter uma usabilidade simples para maior compreensão do usuário. | ALTA |  
+| RNF-002 | A base de dados deve ser relacional (por exemplo, SQL Server ou MySQL) e possibilitar pelo menos três operações CRUD, incluindo gerenciamento de clientes, barbearias e agendamentos |  
 | RNF-003 | A aplicação deve ser hospedada na plataforma Azure, garantindo escalabilidade e alta disponibilidade. | ALTA |  
 | RNF-004 | O tempo de resposta das principais funcionalidades da aplicação não deve ultrapassar 3 segundos em condições normais de uso. | MÉDIA |  
-| RNF-005 | O sistema deverá ter um desempenho eficiente de forma a lidar com vários usuários de uma única vez. | MÉDIA |  
+| RNF-005 | O sistema deverá ser capaz lidar com um grande volume de usuários de uma única vez. | MÉDIA |  
 
 ## Restrições
 
@@ -70,9 +70,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |RE-01| O projeto deverá ser entregue até o final do semestre |
 |RE-02| A hospedagem está restrita à plataforma Azure       |
 |RE-03| Não deverão ser utilizados frameworks como React no front-end, restringindo-se ao HTML, CSS, JavaScript e Bootstrap |
-|RE-04| O back-end deve ser implemento utilizando-se C# com o framework ASP.NET |
-|RE-05| O site deve seguir diretrizes éticas, não permitindo a publicação de conteúdos ofensivos, discriminatórios ou que violem códigos de conduta | 
-|RE-06| A base de dados deve ser relacional (por exemplo, SQL Server ou MySQL) e possibilitar pelo menos três operações CRUD, incluindo gerenciamento de clientes, barbearias e agendamentos |  
+|RE-04| O site deve seguir diretrizes éticas, não permitindo a publicação de conteúdos ofensivos, discriminatórios ou que violem códigos de conduta | 
+
  
 ## Diagrama de Casos de Uso
 
@@ -89,6 +88,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 | **Cliente**       | Buscar barbearia                 | O cliente pode pesquisar barbearias disponíveis no sistema. |
 | **Cliente**       | Reservar horário                 | O cliente pode agendar um horário para um serviço na barbearia. |
 | **Cliente** | Avaliar serviço | O cliente pode avaliar o serviço recebido |
-| **Dono da Barbearia**, **Barbeiro** e **Cliente** | Ver avaliações | O dono da barbearia, barbeiro e o cliente pode visualizar essas avaliações. |
+| **Gerente da Barbearia**, **Barbeiro** e **Cliente** | Ver avaliações | O gerente da barbearia, barbeiro e o cliente pode visualizar essas avaliações. |
+| **Gerente da Barbearia** | Cadastrar barbearia | O gerente da barbearia pode registrar sua barbearia e adicionar os profissionais que trabalham nela. |
 | **Barbeiro** | Definir serviços e horários    | O barbeario(a) pode configurar os serviços oferecidos e definir os horários disponíveis. |
-| **Dono da Barbearia** | Cadastrar barbearia e profissionais | O dono da barbearia pode registrar sua barbearia e adicionar os profissionais que trabalham nela. |
+
