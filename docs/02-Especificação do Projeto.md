@@ -76,7 +76,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
  
 ## Diagrama de Casos de Uso
 
-![casos de uso](https://github.com/user-attachments/assets/6939b8ce-c5bd-4760-9194-14aa1ff51c9e)
+![image](https://github.com/user-attachments/assets/b4f218ce-95dd-4c8e-a2ad-b2e3730cb620)
+
 
 
 
@@ -87,6 +88,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 | **Cliente**       | Escolher barbearia e profissional | O cliente pode selecionar uma barbearia e um profissional de sua preferência. |
 | **Cliente**       | Buscar barbearia                 | O cliente pode pesquisar barbearias disponíveis no sistema. |
 | **Cliente**       | Reservar horário                 | O cliente pode agendar um horário para um serviço na barbearia. |
-| **Cliente**, **Dono da Barbearia** e **Barbeiro** | Avaliar serviço | O cliente pode avaliar o serviço recebido e o dono da barbearia pode visualizar essas avaliações. |
-| **Dono da Barbearia** e **Barbeiro** | Definir serviços e horários    | O dono da barbearia pode configurar os serviços oferecidos e definir os horários disponíveis. |
-| **Dono da Barbearia** e **Barbeiro** | Cadastrar barbearia e profissionais | O dono da barbearia pode registrar sua barbearia e adicionar os profissionais que trabalham nela. |
+| **Cliente** | Avaliar serviço | O cliente pode avaliar o serviço recebido |
+| **Dono da Barbearia**, **Barbeiro** e Cliente| Ver avaliações | O dono da barbearia, barbeiro e o cliente pode visualizar essas avaliações. |
+| **Barbeiro** | Definir serviços e horários    | O barbeario(a) pode configurar os serviços oferecidos e definir os horários disponíveis. |
+| **Dono da Barbearia** | Cadastrar barbearia e profissionais | O dono da barbearia pode registrar sua barbearia e adicionar os profissionais que trabalham nela. |
