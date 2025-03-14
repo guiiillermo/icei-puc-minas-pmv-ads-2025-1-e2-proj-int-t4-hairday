@@ -83,13 +83,14 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 | Ator               | Caso de Uso                         | Descrição |
 |--------------------|----------------------------------|-----------|
-| **Cliente**       | Criar conta / Login              | Permite que o cliente crie uma conta ou faça login no sistema. |
-| **Cliente**       | Cancelar / Reagendar             | O cliente pode cancelar ou reagendar um horário previamente marcado. |
+| **Cliente**       | Criar conta / Login              | Permite que o cliente, o barbeiro e o gerente criem uma conta ou faça login no sistema. |
+| **Cliente**       | Cancelar / Reagendar             | O cliente e o barbeiro podem cancelar ou reagendar um horário previamente marcado. |
 | **Cliente**       | Escolher barbearia e profissional | O cliente pode selecionar uma barbearia e um profissional de sua preferência. |
 | **Cliente**       | Buscar barbearia                 | O cliente pode pesquisar barbearias disponíveis no sistema. |
 | **Cliente**       | Reservar horário                 | O cliente pode agendar um horário para um serviço na barbearia. |
 | **Cliente** | Avaliar serviço | O cliente pode avaliar o serviço recebido |
+| **Gerente da Barbearia**       | Ver horários disponíveis e agendados| O gerente pode ver os horários disponíveis e agendados de todos os barbeiros. |
 | **Gerente da Barbearia**, **Barbeiro** e **Cliente** | Ver avaliações | O gerente da barbearia, barbeiro e o cliente pode visualizar essas avaliações. |
-| **Gerente da Barbearia** | Cadastrar barbearia | O gerente da barbearia pode registrar sua barbearia e adicionar os profissionais que trabalham nela. |
+| **Gerente da Barbearia** | Cadastrar barbearia e profissionais | O gerente da barbearia pode registrar sua barbearia e adicionar os profissionais que trabalham nela. |
 | **Barbeiro** | Definir serviços e horários    | O barbeario(a) pode configurar os serviços oferecidos e definir os horários disponíveis. |
 
