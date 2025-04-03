@@ -26,7 +26,12 @@ A tabela a seguir é um exemplo de como ela deverá ser preenchida considerando 
 |RF-003| Deve permitir que o usuário dê feedbacks. |  |  |
 |RF-004| Deve permitir que o usuário filtre por barbearias de seu interesse. |  |  |
 |RF-005| Deve permitir que o usuário veja quais horarios de corte ele tem agendado. |  |  |
-|RF-005| Deve permitir que o usuário selecione servicos da barbearia. |  |  |
+|RF-006| Deve permitir que o usuário selecione servicos da barbearia. |  |  |
+|RF-007| O usuário pode selecionar um barbeiro expecifico.|  |  |
+|RF-008| Deve permitir que barbeiro/gerente edite horarios agendados. |  |  |
+|RF-009| Deve permitir que barbeiro/gerente crie serviços para suas barbearias.|  |  |
+|RF-010| O usuário pode filtrar por barbearias disponiveis.|  |  |
+
 
 
 # Instruções de acesso
