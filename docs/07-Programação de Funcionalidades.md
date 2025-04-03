@@ -21,9 +21,12 @@ A tabela a seguir é um exemplo de como ela deverá ser preenchida considerando 
 
 |ID    | Descrição do Requisito  | Artefatos produzidos | Aluno(a) responsável |
 |------|-----------------------------------------|----|----|
-|RF-001| A aplicação deve permitir que o usuário avalie uma agência de intercâmbio com base na sua experiência| |  |
-|RF-002| A aplicação deve permitir que o usuário inclua comentários ao fazer uma avaliação de uma agência de intercâmbio     |  |  |
-|RF-003| A aplicação deve permitir que o usuário consulte todas as agências de intercâmbio cadastradas ordenando-as com base em suas notas |  |  |
+|RF-001| A aplicação deve permitir que o usuário/barbeiros façam login. | |  |
+|RF-002| A aplicação deve permitir que o usuário/barbeiros façam registro.    |  |  |
+|RF-003| Deve permitir que o usuário dê feedbacks. |  |  |
+|RF-004| Deve permitir que o usuário filtre por barbearias de seu interesse. |  |  |
+|RF-005| Deve permitir que o usuário veja quais horarios de corte ele tem agendado. |  |  |
+|RF-005| Deve permitir que o usuário selecione servicos da barbearia. |  |  |
 
 
 # Instruções de acesso
