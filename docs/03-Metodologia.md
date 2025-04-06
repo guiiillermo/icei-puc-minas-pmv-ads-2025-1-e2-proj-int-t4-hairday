@@ -45,15 +45,19 @@ etiquetas:
 	<li><strong>In Progress:</strong> lista as tarefas que estão sendo executadas no momento.</li>
 	<li><strong>Done:</strong> reúne as tarefas que já passaram por testes e validações de qualidade. Essas atividades estão concluídas, sem necessidade de revisões, e prontas para serem entregues ao usuário.</li>
 </ul>
+<img src="https://github.com/user-attachments/assets/c6a69e67-97c6-43a7-ba16-7423bdb49fbe">
 
 
 ### Ferramentas
 
 As ferramentas empregadas no projeto são:
-
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+<ul> 
+	<li><strong>Editor de código:</strong> Visual Studio, Github.</li>
+	<li><strong>Ferramentas de comunicação:</strong> WhatsApp, Teams.</li>
+	<li><strong>Ferramentas de desenho de tela:</strong> Figma, Visual Paradigm, Miro, Untitled Workspace.</li>
+	<li><strong>Ferramenta de Hospedagem:</strong></li>
+	<li><strong>Quadro de Tasks:</strong> GitHub Projects.</li>
+</ul>
 
 O editor de código foi escolhido porque ele possui uma integração com o
 sistema de versão. As ferramentas de comunicação utilizadas possuem
@@ -61,8 +65,3 @@ integração semelhante e por isso foram selecionadas. Por fim, para criar
 diagramas utilizamos essa ferramenta por melhor captar as
 necessidades da nossa solução.
 
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
