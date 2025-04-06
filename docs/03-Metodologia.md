@@ -52,9 +52,9 @@ etiquetas:
 
 As ferramentas empregadas no projeto são:
 <ul> 
-	<li><strong>Editor de código:</strong> Visual Studio, Github.</li>
-	<li><strong>Ferramentas de comunicação:</strong> WhatsApp, Teams.</li>
-	<li><strong>Ferramentas de desenho de tela:</strong> Figma, Visual Paradigm, Miro, Untitled Workspace.</li>
+	<li><strong>Editor de código:</strong> Microsoft Visual Studio.</li>
+	<li><strong>Ferramentas de comunicação:</strong> WhatsApp, Teams</li>
+	<li><strong>Ferramentas de desenho de tela:</strong> Figma </li>
 	<li><strong>Ferramenta de Hospedagem:</strong></li>
 	<li><strong>Quadro de Tasks:</strong> GitHub Projects.</li>
 </ul>
