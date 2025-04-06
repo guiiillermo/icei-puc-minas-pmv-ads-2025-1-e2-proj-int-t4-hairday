@@ -35,7 +35,7 @@ Aqui está sendo apresentado o plano de testes do site Hairday, baseados nos req
 | Caso de Teste 	| CT06 – Exibir detalhes da barbearia	|
 |Requisito Associado | RF-006	A aplicação deve exibir detalhes da barbearia, como endereço, telefone, horários de funcionamento e serviços oferecidos. |
 | Objetivo do Teste 	| Verificar se o usuário consegue visualizar os detalhes da barbearia. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://HairDay.com.br<br> -  |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://HairDay.com.br<br> -  Aparecera as informações da barbearia quando o cliente clicar em "agendar horários"  | 
 |Critério de Êxito | - O usuário consegue visualizar todos os detalhes da barbearia. |
 |  	|  	|
 | Caso de Teste 	| CT07 – Escolha da babearia e visualizar os serviços  	|
