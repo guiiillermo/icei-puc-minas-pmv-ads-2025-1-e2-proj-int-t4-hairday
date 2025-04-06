@@ -1,9 +1,7 @@
 
 # Metodologia
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
-
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+Neste projeto, será adotado o método Scrum, uma estrutura ágil amplamente utilizada para promover a colaboração em equipe, especialmente no desenvolvimento de software e em outros setores. O Scrum permite que as equipes organizem o trabalho em metas específicas, a serem alcançadas em ciclos com prazo definido, conhecidos como sprints.
 
 ## Controle de Versão
 
@@ -26,35 +24,28 @@ etiquetas:
 - `enhancement`: uma funcionalidade precisa ser melhorada
 - `feature`: uma nova funcionalidade precisa ser introduzida
 
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
-
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
-
 ## Gerenciamento de Projeto
 
 ### Divisão de Papéis
-
-Apresente a divisão de papéis entre os membros do grupo.
-
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+<ul>
+	<li><strong>Product Owner:</strong> Rafael Henrique dos Santos Silva </li>
+	<li><strong>Scrum Master:</strong> Vitor Bisi Vieira</li>
+	<li><strong>Equipe de desenvolvimento:</strong> Vitor Bisi Vieira, Marcos Eduardo Fortunato, Rafael Henrique dos Santos Silva, Isaque Albertini Silva Oliveira, Guilherme Henrique Cardoso Souza, Guilherme Moreira Santos</li>
+	<li><strong>Equipe de design:</strong> Vitor Bisi Vieira, Marcos Eduardo Fortunato, Rafael Henrique dos Santos Silva, Isaque Albertini Silva Oliveira, Guilherme Henrique Cardoso Souza, Guilherme Moreira Santos.</li>
+</ul>
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+<h3>Processo</h3>
+
+<p>Para organizar e distribuir as tarefas do projeto, a equipe está utilizando a ferramenta de gestão do GitHub, estruturada da seguinte forma:</p>
+<ul>
+	<li><strong>Backlog:</strong> agrupa todas as tarefas que ainda serão desenvolvidas, funcionando como o Product Backlog. Novas atividades identificadas durante o projeto também devem ser adicionadas a essa lista.</li>
+	<li><strong>To Do:</strong> representa o Sprint Backlog, contendo as tarefas planejadas para o sprint em andamento.</li>
+	<li><strong>In Progress:</strong> lista as tarefas que estão sendo executadas no momento.</li>
+	<li><strong>Done:</strong> reúne as tarefas que já passaram por testes e validações de qualidade. Essas atividades estão concluídas, sem necessidade de revisões, e prontas para serem entregues ao usuário.</li>
+</ul>
+
 
 ### Ferramentas
 
