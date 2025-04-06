@@ -1,71 +1,89 @@
 # Plano de Testes de Usabilidade
 
-Os testes de usabilidade permitem avaliar a qualidade da interface com o usuário da aplicação interativa.
+Os testes de usabilidade permitirão avaliar a qualidade da interface da aplicação interativa do ponto de vista do usuário.
 
-Um plano de teste de usabilidade deverá conter: 
+## Definição do objetivo
 
-## Definição do(s) objetivo(s)
+Os testes de usabilidade têm como objetivo avaliar o funcionamento da aplicação a partir da perspectiva do usuário, verificando como ele interage com o sistema para realizar as tarefas propostas.
+Durante os testes, serão observadas possíveis dificuldades enfrentadas pelo usuário nos seguintes aspectos:
 
-Antes de iniciar os testes, é essencial definir o que se deseja avaliar na usabilidade do sistema. 
-Alguns exemplos de objetivos são:
-- Verificar se os usuários conseguem concluir tarefas essenciais sem dificuldades.
-- Identificar barreiras na navegação e interação com o sistema.
-- Avaliar a eficiência e a satisfação do usuário ao utilizar a interface.
-- Testar a acessibilidade para diferentes perfis de usuários.
+-Navegação entre as páginas
+
+-Uso do sistema de busca
+
+-Preenchimento e utilização dos formulários
+
+-Redirecionamento e funcionamento dos links
+
+-Funcionamento do sistema de reservas de serviços
 
 ## Seleção dos participantes
 
-Para garantir que o teste reflita o uso real do sistema, escolha participantes representativos do público-alvo.
+Os participantes deverão ter os seguintes perfis:
 
-**Critérios para selecionar participantes:**
-- Perfis variados (experientes e iniciantes no sistema).
-- Diferentes níveis de familiaridade com tecnologia.
-- Pessoas com necessidades especiais (se aplicável).
+- **Clientes:** Possíveis clientes em busca de uma barbearia para agendar serviços como corte de cabelo, barba, sobrancelha, etc.
+- **Barbeiros:** Barbeiros profissionais com interesse em vender seus serviços para possíveis clientes.
+- **Gerentes:** Gerentes de barbearia buscando ofertar os serviços oferecidos em seu estabelecimento.
 
-**Quantidade recomendada:**
-Mínimo: 5 participantes.
-Ideal: Entre 8 e 12 para maior diversidade.
+## Procedimentos
+
+Os testes serão aplicados remotamente, com o apoio de plataformas como Google Meet ou Microsoft Teams, que permitirão tanto a mediação quanto a gravação das sessões. Um moderador acompanhará os participantes, oferecendo orientações iniciais e monitorando suas interações com a aplicação, registrando em tempo real eventuais obstáculos e impressões compartilhadas.
+
+#### **Etapas:**
+
+1. **Introdução das Atividades:** Cada usuário receberá um conjunto de ações a serem realizadas, alinhadas ao seu perfil de uso (Cliente, Barbeiro ou Gerente).
+2. **Desenvolvimento das Atividades:** Os participantes executarão as tarefas enquanto o moderador observa, intervindo apenas quando surgirem dúvidas que impeçam o andamento do processo.
+3. **Monitoramento e Coleta de Dados:** Ao longo da atividade, o moderador acompanhará atentamente a experiência do usuário, com foco em identificar dificuldades, falhas e comentários que possam surgir de maneira espontânea.
+
 
 ## Definição de cenários de teste
 
-Os cenários representam tarefas reais que os usuários executam no sistema. Neste projeto, cada grupo deverá definir, no mínimo, **CINCO cenários para a aplicação** e cada cenário deve incluir:
+### Tarefas a serem realizadas por Clientes
 
-- Objetivo: O que será avaliado.
-- Contexto: A situação que leva o usuário a interagir com o sistema.
-- Tarefa: A ação que o usuário deve realizar.
-- Critério de sucesso: Como determinar se a tarefa foi concluída corretamente.
+| Número | Descrição da Tarefa                                                                                                    | RF Relacionado |
+|--------|----------------------------------------------------------------------------------------------------------------------  |----------------|
+| 01     | Cadastrar-se como cliente no sistema, informando dados pessoais e de contato                                           | RF-001         |
+| 02     | Realizar o login utilizando o email e senha cadastrados                                                                | RF-001         |
+| 03     | Buscar um serviço a ser realizado por um barbeiro                                                                      | RF-004, RF-007 |
+| 04     | Visualizar a lista de barberias que oferecem o serviço escolhido                                                       | RF-004, RF-007 |
+| 05     | Selecionar uma barbearia e visualizar os serviços oferecidos e os profissionais disponíveis                            | RF-006, RF-007, RF-008 |
+| 06     | Escolher um profissional e visualizar os horários disponíveis para realização do serviço                               | RF-008, RF-007, RF-009 |
+| 07     | Realizar a reserva de um horário para atendimento                                                                      | RF-010 |
 
-**Exemplo: Cenário 1**
+### Tarefas a serem realizadas por Barbeiros
 
-**Objetivo:** Avaliar a facilidade e eficiência do usuário em pesquisar, adicionar um produto ao carrinho e finalizar a compra sem dificuldades.
+| Número | Descrição da Tarefa                                                                                                    | RF Relacionado |
+|--------|----------------------------------------------------------------------------------------------------------------------  |----------------|
+| 01     | Cadastrar-se como barbeiro no sistema, informando dados pessoais, barbearia onde irá trabalhar e horários disponíveis  | RF-002         |
+| 02     | Realizar o login utilizando o email e senha cadastrados                                                                | RF-002         |
+| 03     | Visualizar os horários disponíveis e reservados                                                                        | RF-012         |
+| 04     | Selecionar um horário reservado e obter detalhes adicionais como nome do cliente, serviço e dados de contato           | RF-012         |
+| 05     | Alterar uma reserva                                                                                                    | RF-013         |
+| 06     | Cancelar uma reserva                                                                                                   | RF-013         |
 
-**Contexto:** O usuário deseja comprar um notebook para uso pessoal. Para isso, ele deverá entrar no site www.compras.com.br para buscar opções disponíveis, comparar preços, adicionar o produto ao carrinho e finalizar a compra com pagamento via cartão de crédito.
+### Tarefas a serem realizadas por Gerentes de barbearia
 
-**Tarefa(s):** 
-- Acessar o site e localizar a barra de pesquisa.
-- Pesquisar por "notebook" e utilizar os filtros para refinar a busca (exemplo: marca, preço, processador).
-- Escolher um dos notebooks listados e acessar a página do produto.
-- Adicionar o produto ao carrinho.
-- Finalizar a compra, preenchendo os dados de pagamento e endereço de entrega.
-- Confirmar a transação e verificar a tela de pedido concluído.
+| Número | Descrição da Tarefa                                                                                                    | RF Relacionado |
+|--------|----------------------------------------------------------------------------------------------------------------------  |----------------|
+| 01     | Cadastrar-se como gerente no sistema, informando dados pessoais, dados de localização, contato e horário de funcionamenteo da barbearia | RF-003         |
+| 02     | Realizar o login utilizando o email e senha cadastrados                                                                | RF-003         |
+| 03     | Visualizar os horários disponíveis e reservados de cada barbeiro cadastrado na barbearia                               | RF-012         |
 
-**Critério(s) de Sucesso(s):**
-- O usuário consegue encontrar e filtrar os produtos sem dificuldades.
-- O produto é adicionado ao carrinho corretamente.
-- O usuário consegue preencher as informações de pagamento e entrega sem erros.
-- A compra é finalizada com sucesso, e o usuário visualiza a confirmação do pedido.
-- Todo o processo ocorre em menos de 5 minutos, sem necessidade de assistência.
+## Métricas para Avaliação
 
-## Métodos de coleta de dados
+| **Métrica**                | **Descrição**                                                                                                         |
+|---------------------------|------------------------------------------------------------------------------------------------------------------------|
+| **Eficiência**            | Avalia o desempenho considerando o tempo gasto e a quantidade de interações (cliques) até a conclusão das atividades.  |
+| **Quantidade de Erros**   | Total de falhas registradas enquanto os participantes realizavam as tarefas propostas.                                |
+| **Taxa de Sucesso**       | Proporção de usuários que conseguiram finalizar as tarefas corretamente, sem auxílio externo ou enganos.              |
+| **Facilidade de Uso**     | Mede o grau de dificuldade enfrentado pelos usuários, com base na frequência de erros durante a execução das tarefas. |
 
-Os dados coletados devem ajudar a entender a experiência dos usuários e os dados podem ser coletados por observação direta incluindo métricas quantitativas (quantidade de cliques, número de erros, tempo gasto para cada tarefa etc.), métricas qualitativas (dificuldades, comentários etc.) e questionários pós-teste (A interface foi fácil de entender? Você encontrou dificuldades em alguma etapa? O que poderia ser melhorado?)
+## Recursos Necessários
 
-Para cada voluntário do teste, é fundamental coletar e apresentar todos os dados/métricas previamente definidos, mas não se esqueça: atendendo à LGPD (Lei Geral de Proteção de Dados), nenhum dado sensível, que permita identificar o voluntário, deverá ser apresentado).
+- **Presença de um Moderador:** Responsável por conduzir os testes, orientar os participantes e registrar observações relevantes.
+- **Ferramenta de Videoconferência:** Utilização de plataformas como Google Meet ou Microsoft Teams para condução dos testes remotamente.
+- **Registro em Vídeo:** Gravação das sessões para possibilitar uma análise detalhada posterior.
 
-As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Testes de Usabilidade".
+## Resultados
 
-> **Links Úteis**:
-> - [Teste De Usabilidade: O Que É e Como Fazer Passo a Passo (neilpatel.com)](https://neilpatel.com/br/blog/teste-de-usabilidade/)
-> - [Teste de usabilidade: tudo o que você precisa saber! | by Jon Vieira | Aela.io | Medium](https://medium.com/aela/teste-de-usabilidade-o-que-voc%C3%AA-precisa-saber-39a36343d9a6/)
-> - [Planejando testes de usabilidade: o que (e o que não) fazer | iMasters](https://imasters.com.br/design-ux/planejando-testes-de-usabilidade-o-que-e-o-que-nao-fazer/)
-> - [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+As informações obtidas ao longo dos testes serão examinadas com o objetivo de reconhecer tendências de uso, obstáculos recorrentes e oportunidades de aprimoramento. A análise se concentrará em aspectos como usabilidade, facilidade de navegação, compreensão das informações apresentadas e desempenho das funcionalidades. Com base nas métricas observadas, serão sugeridas melhorias na interface e nos recursos da aplicação.
