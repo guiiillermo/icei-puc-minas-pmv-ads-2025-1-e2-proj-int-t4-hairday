@@ -42,3 +42,5 @@ project.fragment.lock.json
 # Arquivos de sistema (caso venha a usar no futuro)
 .DS_Store
 Thumbs.db
+
+/src/Hairday/wwwroot/lib/
