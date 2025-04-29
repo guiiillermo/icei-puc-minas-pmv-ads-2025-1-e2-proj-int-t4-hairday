@@ -1,0 +1,120 @@
+﻿@model Barbeiro
+
+@{
+    ViewData["Title"] = "View";
+}
+
+<h1>View</h1>
+
+<h4>Barbeiro</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            @if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+        <ul>
+            @foreach (var modelError in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <li>@modelError.ErrorMessage</li>
+            }
+        </ul>
+    </div>
+}
+
+            <div class="form-group">
+                <label asp-for="CPF_barbeiro" class="control-label">CPF</label>
+                <input asp-for="CPF_barbeiro" class="form-control" />
+                <span asp-validation-for="CPF_barbeiro" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="nome" class="control-label">Nome completo</label>
+                <input asp-for="nome" class="form-control" />
+                <span asp-validation-for="nome" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="email" class="control-label">E-mail</label>
+                <input asp-for="email" class="form-control" />
+                <span asp-validation-for="email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="senha" class="control-label">Senha</label>
+                <input asp-for="senha" type="password" class="form-control" />
+                <span asp-validation-for="senha" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="confirmarSenha" class="control-label">Repetir Senha</label>
+                <input type="password" id="confirmarSenha" name="confirmarSenha" class="form-control" />
+                <span id="confirmarSenhaError" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="cidade" class="control-label">Cidade</label>
+                <input asp-for="cidade" class="form-control" />
+                <span asp-validation-for="cidade" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CNPJ_barbearia" class="control-label">CNPJ da barbearia</label>
+                <input asp-for="CNPJ_barbearia" class="form-control" />
+                <span asp-validation-for="CNPJ_barbearia" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Cadastrar" class="btn btn-primary" />
+            </div>
+        </form>
+        <div>Teste do github</div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        function aplicarMascaraCPF(input) {
+            input.value = input.value
+                .replace(/\D/g, '') // Remove tudo que não é dígito
+                .replace(/(\d{3})(\d)/, '$1.$2')
+                .replace(/(\d{3})(\d)/, '$1.$2')
+                .replace(/(\d{3})(\d{1,2})$/, '$1-$2');
+        }
+
+        function aplicarMascaraCNPJ(input) {
+            input.value = input.value
+                .replace(/\D/g, '')
+                .replace(/^(\d{2})(\d)/, '$1.$2')
+                .replace(/^(\d{2})\.(\d{3})(\d)/, '$1.$2.$3')
+                .replace(/\.(\d{3})(\d)/, '.$1/$2')
+                .replace(/(\d{4})(\d)/, '$1-$2');
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const cpfInput = document.getElementById('CPF_barbeiro');
+            const cnpjInput = document.getElementById('CNPJ_barbearia');
+
+            cpfInput.addEventListener('input', function () {
+                aplicarMascaraCPF(cpfInput);
+            });
+
+            cnpjInput.addEventListener('input', function () {
+                aplicarMascaraCNPJ(cnpjInput);
+            });
+        });
+
+        // Validar se as senhas coincidem antes de enviar o formulário
+        document.querySelector("form").addEventListener("submit", function (event) {
+            var senha = document.getElementById("senha").value;
+            var confirmarSenha = document.getElementById("confirmarSenha").value;
+
+            if (senha !== confirmarSenha) {
+                event.preventDefault(); // Impede o envio do formulário
+                document.getElementById("confirmarSenhaError").innerText = "As senhas não coincidem!";
+            }
+        });
+    </script>
+}
+
