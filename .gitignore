@@ -1,0 +1,44 @@
+# Ignorar pastas e arquivos específicos dentro de src/
+
+# Ignorar a pasta .vs (do Visual Studio)
+src/.vs/
+.vs/
+
+# Ignorar pastas de build
+src/Hairday/bin/
+src/Hairday/obj/
+
+# Ignorar pasta de migrações (se não quiser versionar arquivos gerados pelo EF Core)
+src/Hairday/Migrations/
+
+# Ignorar arquivos de configuração de usuário
+src/Hairday/Hairday.csproj.user
+
+# Ignorar arquivo de solução (se não quiser versionar)
+src/HairdayApp.sln
+
+# Arquivos comuns do Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Resultados de testes (caso existam)
+TestResults/
+
+# Arquivos temporários ou de log
+*.log
+*.tmp
+
+# Arquivos de ambiente (caso existam)
+*.env
+
+# Arquivos e pastas de pacotes NuGet (se aplicável)
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+
+# Arquivos de sistema (caso venha a usar no futuro)
+.DS_Store
+Thumbs.db
