@@ -1,4 +1,5 @@
-﻿// Modelo Cliente
+﻿namespace HairDay.Models;
+// Modelo Cliente
 using System.ComponentModel.DataAnnotations;
 // Modelo Barbearia
 public class Barbearia
@@ -7,7 +8,7 @@ public class Barbearia
     public string CNPJ_barbearia { get; set; }
 
     [Required, MaxLength(100)]
-    public string nome { get; set; }
+    public string Nome { get; set; }
 
     [Required, EmailAddress]
     public string email { get; set; }

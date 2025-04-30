@@ -1,6 +1,7 @@
 ﻿// Modelo Cliente
 using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using HairDay.Models;
 // Modelo Servico
 public class Servico
 {
