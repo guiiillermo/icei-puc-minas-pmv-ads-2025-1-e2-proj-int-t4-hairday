@@ -63,7 +63,8 @@ namespace Hairday.Controllers
             {
                 _context.Add(barbeiro);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("Create", "HorarioDisponivel", new { cpf = barbeiro.CPF_barbeiro });
+
             }
 
             // Se chegou aqui, algo deu errado

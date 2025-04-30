@@ -1,0 +1,48 @@
+﻿@using Hairday.ViewModels
+@model HorarioDisponivelViewModel
+
+@{
+    ViewData["Title"] = "Definir Horários Disponíveis";
+    var horarios = new[] { "08:00", "09:00", "10:00", "11:00", "12:00",
+                           "13:00", "14:00", "15:00", "16:00", "17:00",
+                           "18:00", "19:00", "20:00", "21:00" };
+
+    // Dicionário para mapear DayOfWeek para nomes em português
+    var diasDaSemana = new Dictionary<DayOfWeek, string>
+    {
+        { DayOfWeek.Sunday, "Domingo" },
+        { DayOfWeek.Monday, "Segunda-feira" },
+        { DayOfWeek.Tuesday, "Terça-feira" },
+        { DayOfWeek.Wednesday, "Quarta-feira" },
+        { DayOfWeek.Thursday, "Quinta-feira" },
+        { DayOfWeek.Friday, "Sexta-feira" },
+        { DayOfWeek.Saturday, "Sábado" }
+    };
+}
+
+<h2>Definir Horários Disponíveis</h2>
+
+<form asp-action="Create" method="post">
+    <input type="hidden" name="CPF_barbeiro" value="@Model.CPF_barbeiro" />
+
+    <h4>Dias da semana:</h4>
+    @foreach (var dia in Enum.GetValues(typeof(DayOfWeek)).Cast<DayOfWeek>())
+    {
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="DiasSelecionados" value="@dia" id="dia-@dia" />
+            <label class="form-check-label" for="dia-@dia">@diasDaSemana[dia]</label>
+        </div>
+    }
+
+    <!-- Restante do seu código permanece o mesmo -->
+    <h4 class="mt-3">Horários disponíveis:</h4>
+    @foreach (var h in horarios)
+    {
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="HorariosSelecionados" value="@h" id="hora-@h" />
+            <label class="form-check-label" for="hora-@h">@h</label>
+        </div>
+    }
+
+    <button type="submit" class="btn btn-primary mt-3">Salvar horários</button>
+</form>
