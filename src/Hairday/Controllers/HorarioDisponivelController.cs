@@ -64,7 +64,8 @@ namespace Hairday.Controllers
             _context.Horario_Disponivel.AddRange(horariosParaSalvar);
             await _context.SaveChangesAsync();
 
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("Create", "Servico", new { cpf = model.CPF_barbeiro });
+
         }
     }
 }
