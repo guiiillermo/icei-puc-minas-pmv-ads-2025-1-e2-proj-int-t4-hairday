@@ -1,0 +1,66 @@
+﻿@{
+    ViewData["Title"] = "Login";
+}
+<div class="login-container">
+    <div class="login-left">
+        <img src="~/images/LoginCadeira.png" alt="Barbearia" style="width:100%; height:auto;" />
+    </div>
+    <div class="login-right">
+        <h2>HAIR DAY</h2>
+        <h4>Faça Login na sua conta</h4>
+        <p>Seu próximo corte está a um clique de distância</p>
+
+        <form asp-action="Login" method="post">
+            <div>
+                <label>Email</label>
+                <input type="email" name="email" required />
+            </div>
+            <div>
+                <label>Senha</label>
+                <input type="password" name="senha" required />
+            </div>
+            <div>
+                <button type="submit">Login</button>
+            </div>
+        </form>
+
+        @if (!ViewData.ModelState.IsValid)
+        {
+            <p style="color:red;">Email ou senha inválidos.</p>
+        }
+    </div>
+</div>
+<style>
+    .login-container {
+        display: flex;
+        height: 100vh;
+    }
+
+    .login-left {
+        flex: 1  
+        
+    }
+
+    .login-right {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+    }
+
+    input {
+        margin-bottom: 1rem;
+        width: 100%;
+        padding: 0.5rem;
+    }
+
+    button {
+        padding: 0.5rem 1rem;
+        margin: 2px;
+    }
+
+    body {
+    }
+</style>
