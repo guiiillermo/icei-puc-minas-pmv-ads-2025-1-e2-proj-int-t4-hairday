@@ -3,9 +3,10 @@
 
 Apresentamos a seguir os wireframes estáticos e interativos desenvolvidos com base na proposta da aplicação que será construída por nossa equipe neste semestre. Com um design focado em atender um público que valoriza a objetividade e a praticidade em suas interações, destacamos a seguir:
 
-## Diagrama de Fluxo
+## User Flow
 
-<img src="https://github.com/user-attachments/assets/8f5a3edf-3b84-47aa-bf3b-c478d6754726">
+<img width="960" alt="diagrama de fluxo telas (1)" src="https://github.com/user-attachments/assets/83aedd0e-03e7-4809-a51c-d0c8af02ce8d" />
+
 
 ## Wireframes
 ### Tela - Página Inicial
