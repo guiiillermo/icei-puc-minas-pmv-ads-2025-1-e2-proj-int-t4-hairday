@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Hairday.Controllers;
+using Hairday.Models;
 using System.Threading.Tasks;
 using System.Linq;
 
