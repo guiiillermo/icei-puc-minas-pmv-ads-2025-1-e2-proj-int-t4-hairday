@@ -1,0 +1,103 @@
+﻿.dias-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: 20px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dias-container div {
+    display: flex;
+    align-items: center;
+    padding: 6px 10px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.dias-container div:hover {
+    background-color: #f0f0f0;
+    border-color: #ccc;
+}
+
+.dias-container input[type="checkbox"] {
+    margin-right: 8px;
+    accent-color: #3f51b5;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.dias-container label {
+    cursor: pointer;
+    font-size: 15px;
+    color: #333;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 44px;
+    padding-top: 46px;
+    padding-bottom: 24px;
+}
+
+.horarios-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 20px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.horarios-container div {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 6px 10px;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.horarios-container div:hover {
+    background-color: #f2f2f2;
+    border-color: #c5c5c5;
+}
+
+.horarios-container input[type="checkbox"] {
+    margin-right: 8px;
+    accent-color: #3f51b5;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.horarios-container label {
+    cursor: pointer;
+    font-size: 15px;
+    color: #333;
+}
+
+.botao-enviar {
+    width: 540px;
+    margin-top: 45px;
+    height: 54px;
+    border: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #88604F;
+}

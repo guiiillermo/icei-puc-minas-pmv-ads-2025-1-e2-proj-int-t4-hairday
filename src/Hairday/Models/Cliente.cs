@@ -1,23 +1,26 @@
 ﻿// Modelo Cliente
 using System.ComponentModel.DataAnnotations;
 
-public class Cliente
+namespace Hairday.Models
 {
-    [Key]
-    public int id_cliente { get; set; }
+    public class Cliente
+    {
+        [Key]
+        public int id_cliente { get; set; }
 
-    [Required, MaxLength(100)]
-    public string nome { get; set; }
+        [Required, MaxLength(100)]
+        public string nome { get; set; }
 
-    [Required, EmailAddress]
-    public string email { get; set; }
+        [Required, EmailAddress]
+        public string email { get; set; }
 
-    [Required]
-    public string senha { get; set; }
+        [Required]
+        public string senha { get; set; }
 
-    public string cidade { get; set; }
+        public string cidade { get; set; }
 
-    public string telefone { get; set; }
+        public string telefone { get; set; }
 
-    public ICollection<Agendamento> agendamentos { get; set; }
+        public ICollection<Agendamento> agendamentos { get; set; }
+    }
 }

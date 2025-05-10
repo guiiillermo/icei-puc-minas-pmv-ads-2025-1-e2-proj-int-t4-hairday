@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿﻿*,
+=======
+﻿*,
+>>>>>>> dev_vitor
 *:after,
 *:before {
     margin: 0;
@@ -38,4 +42,8 @@
     text-decoration: none;
     font-family: Inter;
     padding-right: 34px;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> dev_vitor

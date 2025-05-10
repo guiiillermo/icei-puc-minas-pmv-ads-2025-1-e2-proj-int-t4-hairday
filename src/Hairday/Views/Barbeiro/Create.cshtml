@@ -1,0 +1,97 @@
+﻿@model Hairday.Models.Barbeiro
+
+@{
+    ViewData["Title"] = "View";
+}
+
+@{
+    Layout = "~/Views/Shared/_Layout_Barbeiro.cshtml";
+}
+
+
+<main class="page-body">
+    <div class="form-column">
+        <h2 class="page-title">Cadastre-se</h2>
+        <h4 class="page-subtitle">Insira as informações abaixo e comece já</h4>
+
+        <form asp-action="Create" class="barber-form" method="post">
+            @if (!ViewData.ModelState.IsValid)
+            {
+                <div class="alert alert-danger">
+                    <ul>
+                        @foreach (var modelError in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                        {
+                            <li>@modelError.ErrorMessage</li>
+                        }
+                    </ul>
+                </div>
+            }
+
+            <input asp-for="CPF_barbeiro" class="input-form" placeholder="CPF" required />
+            <span asp-validation-for="CPF_barbeiro" class="text-danger"></span>
+
+            <input asp-for="nome" class="input-form" placeholder="Nome completo" required />
+            <span asp-validation-for="nome" class="text-danger"></span>
+
+            <input asp-for="email" class="input-form" placeholder="E-mail" required />
+            <span asp-validation-for="email" class="text-danger"></span>
+
+            <input asp-for="senha" id="senha" class="input-form" type="password" placeholder="Senha" required />
+            <span asp-validation-for="senha" class="text-danger"></span>
+
+            <input type="password" id="confirmarSenha" name="confirmarSenha" class="input-form" placeholder="Confirme a senha" required />
+            <span id="confirmarSenhaError" class="text-danger"></span>
+
+            <input asp-for="cidade" class="input-form" placeholder="Cidade" required />
+            <span asp-validation-for="cidade" class="text-danger"></span>
+
+            <input asp-for="CNPJ_barbearia" class="input-form" placeholder="CNPJ da barbearia" required />
+            <span asp-validation-for="CNPJ_barbearia" class="text-danger"></span>
+
+            <button class="form-button" type="submit">Enviar</button>
+        </form>
+    </div>
+</main>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        function aplicarMascaraCPF(input) {
+            input.value = input.value
+                .replace(/\D/g, '')
+                .replace(/(\d{3})(\d)/, '$1.$2')
+                .replace(/(\d{3})(\d)/, '$1.$2')
+                .replace(/(\d{3})(\d{1,2})$/, '$1-$2');
+        }
+
+        function aplicarMascaraCNPJ(input) {
+            input.value = input.value
+                .replace(/\D/g, '')
+                .replace(/^(\d{2})(\d)/, '$1.$2')
+                .replace(/^(\d{2})\.(\d{3})(\d)/, '$1.$2.$3')
+                .replace(/\.(\d{3})(\d)/, '.$1/$2')
+                .replace(/(\d{4})(\d)/, '$1-$2');
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const cpfInput = document.getElementById('CPF_barbeiro');
+            const cnpjInput = document.getElementById('CNPJ_barbearia');
+
+            cpfInput.addEventListener('input', () => aplicarMascaraCPF(cpfInput));
+            cnpjInput.addEventListener('input', () => aplicarMascaraCNPJ(cnpjInput));
+        });
+
+        document.querySelector("form").addEventListener("submit", function (event) {
+            var senha = document.getElementById("senha").value;
+            var confirmarSenha = document.getElementById("confirmarSenha").value;
+
+            if (senha !== confirmarSenha) {
+                event.preventDefault();
+                document.getElementById("confirmarSenhaError").innerText = "As senhas não coincidem!";
+            }
+        });
+    </script>
+}
