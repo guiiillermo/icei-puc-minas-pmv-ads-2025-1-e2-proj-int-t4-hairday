@@ -30,6 +30,15 @@
                     <button type="submit">Login</button>
                 </form>
                 <p class="register">Não possui uma conta? <a asp-controller="Account" asp-action="Register">Criar uma conta</a></p>
+                @if (!ViewData.ModelState.IsValid)
+                {
+                    <div class="validation-summary">
+                        @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                        {
+                            <p style="color:red">@error.ErrorMessage</p>
+                        }
+                    </div>
+                }
             </div>
         </div>
     </div>
