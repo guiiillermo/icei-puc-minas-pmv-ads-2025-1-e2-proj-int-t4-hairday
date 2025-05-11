@@ -63,6 +63,14 @@ Com base nessas análises, detalhe as estratégias que o grupo pretende adotar p
 | Análise crítica | A página funciona como esperado |
 | Oportunidade de melhoria |  |
 
+| **Relatório** 	| **R-03 –Loign Usuário** 	|
+|:---:	|:---:	|
+|	Requisito Associado | RF-014 A aplicação deve permitir que os diferentes tipos de usuários (cliente, barbeiro e barbearia) realizem o login. |
+|	Plano de teste Associado 	| CT-14 - Login do Usuário |
+|	Caso de teste Associado 	| CT-14 – Login Usuário |
+|	Avaliação | Não foram encontrados desvios ou erros no funcionamento da página. |
+| Análise crítica | Pode ser necessária um feedback para que o usuário saiba que o login foi realizado com sucesso. |
+| Oportunidade de melhoria | Aprender como fazer notificações para o usuario. |
 
 
 > **Links Úteis**:
