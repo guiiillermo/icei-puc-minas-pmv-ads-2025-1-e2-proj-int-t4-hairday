@@ -79,3 +79,9 @@ Aqui está sendo apresentado o plano de testes do site Hairday, baseados nos req
 | Objetivo do Teste 	| Verificar se o barbeiro realizar alterações nos horários disponíveis. |
 | Passos 	| -  Selecionar um estabelecimento <br> -  Acessar a página  de gerenciamento <br> -  Fazer modificações necessárias <br>  |
 |Critério de Êxito | - O barbeiro devera realizar alterações nos horários com exito. |
+|  	|  	|
+| Caso de Teste 	| CT14 – Login do usuário |
+|Requisito Associado | RF-014 A aplicação deve permitir que os diferentes tipos de usuários (cliente, barbeiro e barbearia) realizem o login.|
+| Objetivo do Teste 	| Verificar se os usuários conseguem realizar login com sucesso. |
+| Passos 	| -   Acessar o navegador <br> - Informar o endereço do site https://HairDay.com.br<br> - Clicar em "Login/Cadastro" <br> - Preencher os campos obrigatórios (e-mail e senha) <br> -Clicar no botão de Login  |
+|Critério de Êxito | - O login é reconhecido pelo sistema e o usuário é redirecionado à pagina correspondente ao seu tipo de usuário |
