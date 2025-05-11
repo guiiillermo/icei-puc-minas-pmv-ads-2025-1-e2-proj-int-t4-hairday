@@ -1,4 +1,4 @@
-﻿namespace HairDay.Models;
+﻿namespace Hairday.Models;
 // Modelo Cliente
 using System.ComponentModel.DataAnnotations;
 // Modelo Barbearia

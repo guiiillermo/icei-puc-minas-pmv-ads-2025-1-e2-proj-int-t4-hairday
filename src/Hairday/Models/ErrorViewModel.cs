@@ -1,4 +1,4 @@
-namespace HairDay.Models
+namespace Hairday.Models
 {
     public class ErrorViewModel
     {

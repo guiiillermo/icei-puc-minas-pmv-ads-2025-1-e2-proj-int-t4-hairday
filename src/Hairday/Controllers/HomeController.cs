@@ -1,6 +1,6 @@
 using System.Diagnostics;
 using Hairday.Controllers;
-using HairDay.Models;
+using Hairday.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -30,7 +30,7 @@ namespace HairDay.Controllers
         return View(barbearias);
     }
 
-
+       
         public async Task<IActionResult> BuscarBarbeariaPorNome(string nome)
         {
             var barbearias = await _context.Barbearias

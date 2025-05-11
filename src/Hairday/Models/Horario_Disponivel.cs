@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 
-namespace HairDay.Models
+namespace Hairday.Models
 {
     public class Horario_Disponivel
     {

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Reflection.Emit;
-using HairDay.Models;
+using Hairday.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace Hairday.Controllers
