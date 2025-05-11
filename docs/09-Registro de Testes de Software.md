@@ -15,10 +15,12 @@ https://github.com/user-attachments/assets/d61a17f6-fb43-4101-aa6a-17bfcfae17a9
 
 
 
-| **Caso de Teste** 	| **CT02 – Realizar login** 	|
+| **Caso de Teste** 	| **CT02 – Buscar barbearias** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	| RF-00Y - A aplicação deve permitir que um usuário previamente cadastrado faça login |
-|Registro de evidência | www.teste.com.br/drive/ct-02 |
+|	Requisito Associado 	| RF-004 - A aplicação deve exibir uma lista de barbearias disponíveis para os clientes. |
+|	Plano de teste Associado 	| CT04 – Exibir lista de barbearias disponíveis |
+
+Registro de evidência CT-02
 
 
 https://github.com/user-attachments/assets/38b00201-c122-4a6c-ba77-daa8413ed960
@@ -41,9 +43,15 @@ Com base nessas análises, detalhe as estratégias que o grupo pretende adotar p
 | Análise crítica | Reajustar o controlador para impedir que o usuário envie o formulário em branco |
 | Oportunidade de melhoria | Entender melhor a validação de dados de formulário no controlador |
 
+| **Relatório** 	| **R-02 – Buscar barbearias** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	|  RF-004 - A aplicação deve exibir uma lista de barbearias disponíveis para os clientes. |
+|	Plano de teste Associado 	| CT-04 - Exibir lista de barbearias disponíveis |
+|	Caso de teste Associado 	| CT-02 – Buscar barbearias |
+|	Avaliação | Não foram encontrados desvios ou erros no funcionamento da página |
+| Análise crítica | A página funciona como esperado |
+| Oportunidade de melhoria |  |
 
-
-Por fim, apresente e/ou proponha as melhorias a partir dos testes realizados, destacando os ganhos obtidos e como essas alterações contribuem para a evolução do projeto.
 
 > **Links Úteis**:
 > - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
