@@ -12,7 +12,7 @@ namespace Hairday.Models
         [Required, MaxLength(100)]
         public string nome { get; set; }
         [Required, EmailAddress]
-        public string email { get; set; }
+        public string email { get; set; } 
 
         [Required]
         public string senha { get; set; }
