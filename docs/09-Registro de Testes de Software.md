@@ -20,6 +20,10 @@ https://github.com/user-attachments/assets/d61a17f6-fb43-4101-aa6a-17bfcfae17a9
 |	Requisito Associado 	| RF-00Y - A aplicação deve permitir que um usuário previamente cadastrado faça login |
 |Registro de evidência | www.teste.com.br/drive/ct-02 |
 
+
+https://github.com/user-attachments/assets/38b00201-c122-4a6c-ba77-daa8413ed960
+
+
 ## Relatório de testes de software
 
 Apresente e discuta detalhadamente os resultados obtidos nos testes realizados, destacando tanto os pontos fortes quanto as fragilidades identificadas na solução. Explique como os aspectos positivos contribuem para o desempenho e a usabilidade do sistema, e como os pontos fracos impactam sua eficácia.
