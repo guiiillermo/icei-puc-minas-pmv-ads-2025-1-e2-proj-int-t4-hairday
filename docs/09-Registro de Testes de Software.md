@@ -36,6 +36,17 @@ Registro de evidência  CT-03
 
 https://github.com/user-attachments/assets/e57cb8e2-d684-49f9-abfa-334c79f6467d
 
+| **Caso de Teste** 	| **CT04 – Cadastro Cliente** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RF-001 - O sistema deve permitir que os clientes se cadastrem com nome, e-mail e telefone. |
+|	Plano de teste Associado 	| CT01 – Cadastrar perfil do usuário |
+
+Registro de evidência CT-04
+
+
+https://github.com/user-attachments/assets/37862251-e82a-40e7-95bc-e8dd7a6f49b7
+
+
 
 ## Relatório de testes de software
 
