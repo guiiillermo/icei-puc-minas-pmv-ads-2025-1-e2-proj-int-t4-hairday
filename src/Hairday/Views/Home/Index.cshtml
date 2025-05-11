@@ -1,8 +1,105 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+
+    Layout = "~/Views/Shared/_LayoutHome.cshtml";
+
+}
+@{
+    ViewData["Title"] = "HairDay - Agendamento de Serviços";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<!-- Hero Section -->
+<div class="header-container">
+    <div class="header-image-container">
+        <img src="~/Assets/image 19.png" alt="Barbearia HairDay" class="header-image">
+    </div>
+
+    <div class="header-content">
+        <div class="header-top">
+            <div class="logo-container">
+                <img src="~/Assets/HairDay Logo.png" alt="Logo HairDay" class="header-logo">
+            </div>
+            <div class="login-container">
+                <span class="login-text">Login / Cadastro</span>
+                <button id="cadastroBarbeariaId" class="btn-barbearia">
+                    Cadastre sua barbearia
+                </button>
+            </div>
+        </div>
+
+        <div class="hero-main-content">
+            <h1>Bem-vindo ao HairDay</h1>
+            <p class="subtitle">Busque as melhores barbearias perto de mim</p>
+
+            <form asp-action="BuscarBarbeariaPorNome" method="get" class="search-form">
+                <div class="input-com-icone">
+                    <i class="bi bi-search"></i>
+                    <input type="text" name="nome" placeholder="Digite o nome da barbearia" required>
+                </div>
+            </form>
+
+            <nav class="services-nav">
+                <a href="#" class="service-link active">Cabelo</a>
+                <a href="#" class="service-link">Barba</a>
+                <a href="#" class="service-link">Sobrancelha</a>
+                <a href="#" class="service-link">Spa</a>
+                <a href="#" class="service-link">Massagem</a>
+            </nav>
+
+            @if (!string.IsNullOrEmpty(ViewBag.Mensagem as string))
+            {
+                <div class="alert-message">@ViewBag.Mensagem</div>
+            }
+
+            @if (Model != null && Model.Any())
+            {
+                <ul class="results-list">
+                    @foreach (var barbearia in Model)
+                    {
+                        <li>@barbearia.Nome</li>
+                    }
+                </ul>
+            }
+        </div>
+    </div>
 </div>
+<!-- Main Content -->
+<main class="main-content">
+    <div class="fade-scroll-container">
+        <!-- Seção 1 -->
+        <section class="fade-section">
+            <div class="fade-content">
+                <img src="~/Assets/Agendamento-img.png" alt="Agendamentos" class="fade-item">
+                <div class="fade-item text-content">
+                    <h2>Agendamentos mais fáceis</h2>
+                    <p>Procurando seu próximo horário com um barbeiro, cabeleireiro, massagista ou especialista em unhas? Precisa agendar um corte de barba, design de sobrancelha ou uma massagem relaxante?</p>
+                    <p>O Hairday facilita sua vida! Agende seus serviços de beleza e bem-estar em segundos, a qualquer hora e de qualquer lugar, sem precisar ligar. Descubra os melhores profissionais perto de você e marque seu horário com praticidade!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção 2 -->
+        <section class="fade-section">
+            <div class="fade-content reverse">
+                <img src="~/Assets/facil-img.png" alt="Alterações" class="fade-item">
+                <div class="fade-item text-content">
+                    <h2>Algo aconteceu? Nós cuidamos disso</h2>
+                    <p>Precisa mudar seus planos? Você pode remarcar ou cancelar seu agendamento de forma rápida e fácil pelo nosso site.</p>
+                    <p>Acesse sua conta, escolha o agendamento e altere a data ou cancele seu compromisso. Estamos aqui para tornar sua experiência mais flexível!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção 3 -->
+        <section class="fade-section">
+            <div class="fade-content">
+                <img src="~/Assets/feedback-img.png" alt="Feedback" class="fade-item">
+                <div class="fade-item text-content">
+                    <h2>Feedback para melhoria contínua</h2>
+                    <p>Nos ajude a melhorar a experiência de agendamento, garantindo um serviço cada vez mais prático e eficiente. Além disso, seu feedback auxilia outros clientes a encontrarem os melhores profissionais.</p>
+                    <p>É rápido e fácil! Compartilhe sua experiência e contribua para que todas as pessoas tenham um atendimento de qualidade. Seu comentário fortalece a comunidade e ajuda a elevar o padrão dos serviços oferecidos.</p>
+                    
+                </div>
+            </div>
+        </section>
+    </div>
+</main>

@@ -11,7 +11,6 @@ namespace Hairday.Models
 
         [Required, MaxLength(100)]
         public string nome { get; set; }
-
         [Required, EmailAddress]
         public string email { get; set; }
 

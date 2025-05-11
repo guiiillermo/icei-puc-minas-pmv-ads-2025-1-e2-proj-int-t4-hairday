@@ -1,0 +1,50 @@
+﻿@{
+
+    Layout = "~/Views/Shared/_LayoutHome.cshtml";
+
+}
+
+
+@model List<Hairday.Models.Barbearia>
+@using System.Linq
+
+@{
+    ViewData["Title"] = "Buscar Barbearia por Nome";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="BuscarBarbeariaPorNome" method="get">
+    <div class="form-group">
+        <label for="nome">Nome da Barbearia:</label>
+        <input type="text" name="nome" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Buscar</button>
+</form>
+
+@if (Model != null && Model.Any())
+{
+    <h3>Resultados:</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Endereço</th>
+                <th>Telefone</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var barbearia in Model)
+            {
+                <tr>
+                    <td>@barbearia.Nome</td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+}
+else if (Model != null)
+{
+    <p>Nenhuma barbearia encontrada.</p>
+}

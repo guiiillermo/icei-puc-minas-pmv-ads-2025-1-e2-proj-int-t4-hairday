@@ -5,6 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseMySql(
         builder.Configuration.GetConnectionString("DefaultConnection"),
@@ -35,24 +36,25 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 
-////CÓDIGO PARA TESTE DO BANCO DE DADOS
-//using (var scope = app.Services.CreateScope())
-//{
-//    var context = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+//CÓDIGO PARA TESTE DO BANCO DE DADOS
+/*
+using (var scope = app.Services.CreateScope())
+{
+    var context = scope.ServiceProvider.GetRequiredService<AppDbContext>();
 
 
-//    context.Clientes.Add(new Cliente
-//    {
-//        nome = "Fulano da Silva",
-//        email = "fulano2@email.com",
-//        senha = "123456",
-//        cidade = "São Paulos",
-//        telefone = "22999999999"
-//    });
-//    context.SaveChanges();
-//    Console.WriteLine("Cliente adicionado com sucesso!");
+    context.Clientes.Add(new Cliente
+    {
+        nome = "Fulano da Silvaa",
+        email = "fulano22@email.com",
+        senha = "123456",
+        cidade = "São Paulos",
+        telefone = "22999999999"
+    });
+    context.SaveChanges();
+    Console.WriteLine("Cliente adicionado com sucesso!");
    
-//}
+} */
 
 app.Run();
 
