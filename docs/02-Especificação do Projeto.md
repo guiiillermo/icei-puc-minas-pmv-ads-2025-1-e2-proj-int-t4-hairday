@@ -52,6 +52,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | RF-011 | A aplicação deve permitir que gerentes visualizem a lista de agendamentos realizados. | ALTA |  
 | RF-012 | A aplicação deve permitir que barbeiros visualizem a lista de agendamentos realizados. | ALTA |  
 | RF-013 | A aplicação deve permitir que barbeiros alterem horários disponíveis. | ALTA |  
+| RF-014 | A aplicação deve permitir que os diferentes tipos de usuários (cliente, barbeiro e barbearia) realizem o login. | ALTA |  
 
 ### Requisitos não Funcionais
 
