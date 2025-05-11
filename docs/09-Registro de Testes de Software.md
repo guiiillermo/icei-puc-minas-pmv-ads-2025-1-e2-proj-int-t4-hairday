@@ -26,6 +26,17 @@ Registro de evidência CT-02
 https://github.com/user-attachments/assets/38b00201-c122-4a6c-ba77-daa8413ed960
 
 
+| **Caso de Teste** 	| **CT-03 – Login Usuário**	 |
+|:---:	|:---:	|
+|	Requisito Associado | RF-014 A aplicação deve permitir que os diferentes tipos de usuários (cliente, barbeiro e barbearia) realizem o login. |
+|	Plano de teste Associado 	| CT-14 Login do Usuário |
+
+Registro de evidência  CT-03
+
+
+https://github.com/user-attachments/assets/e57cb8e2-d684-49f9-abfa-334c79f6467d
+
+
 ## Relatório de testes de software
 
 Apresente e discuta detalhadamente os resultados obtidos nos testes realizados, destacando tanto os pontos fortes quanto as fragilidades identificadas na solução. Explique como os aspectos positivos contribuem para o desempenho e a usabilidade do sistema, e como os pontos fracos impactam sua eficácia.
@@ -51,6 +62,7 @@ Com base nessas análises, detalhe as estratégias que o grupo pretende adotar p
 |	Avaliação | Não foram encontrados desvios ou erros no funcionamento da página |
 | Análise crítica | A página funciona como esperado |
 | Oportunidade de melhoria |  |
+
 
 
 > **Links Úteis**:
