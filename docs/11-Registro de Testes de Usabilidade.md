@@ -49,17 +49,17 @@ Os testes de usabilidade foram realizados de forma presencial. Abaixo estão os 
  
 ### Observações
  
-Após a execução presencial dos testes de usabilidade, foi possível observar pontos positivos e oportunidades de melhoria na interface e no fluxo de navegação da aplicação. As análises foram baseadas no tempo necessário para realizar as tarefas, na quantidade de ações, incidência de erros e percepções relatadas pelos participantes.
+Após a execução presencial dos testes de usabilidade, foi possível observar pontos positivos e oportunidades de melhoria na interface e na navegação da aplicação. As análises foram baseadas no tempo necessário para realizar as tarefas, na quantidade de ações, quantidade de erros e observações relatadas pelos participantes.
  
 ---
  
 ### Relatório
  
-Durante os testes, avaliou-se o desempenho dos usuários em diferentes fluxos, com foco em clareza da interface, entendimento dos campos e facilidade na realização das ações.
+Durante os testes, avaliou-se o desempenho dos usuários em diferentes caminhos, buscando focar na clareza da interface, entendimento dos campos e facilidade na realização das ações.
  
 #### Testes que obtiveram resultados satisfatórios
  
-Nos testes **CTU-03 (Busca de Barbearias)** e **CTU-04 (Login)**, os usuários concluíram suas tarefas com tempo curto, número mínimo de ações e sem cometer erros. Ainda que tenham sido levantados pequenos comentários, o desempenho geral indica boa usabilidade.
+Nos testes **CTU-03 (Busca de Barbearias)** e **CTU-04 (Login)**, os usuários concluíram suas tarefas com tempo curto, pequeno número de ações e sem cometer erros. Ainda que tenham sido feitors pequenos comentários, o desempenho geral é bom.
  
 | **Caso de Teste**   | **Média de tempo** | **Média de ações** | **Quantidade de erros** |
 |---------------------|--------------------|---------------------|--------------------------|
@@ -72,7 +72,7 @@ Nos testes **CTU-03 (Busca de Barbearias)** e **CTU-04 (Login)**, os usuários c
  
 **CTU-01: Cadastro do Barbeiro**
  
-Alguns usuários relataram erros com os campos de preenchimento e a linguagem das mensagens. Entretanto o número de erros foi minimamente baixo, a clareza da interface pode ser melhorada.
+Alguns usuários relataram erros com os campos de preenchimento e a linguagem das mensagens. Porém, o número de erros foi bem baixo, a clareza da interface pode ser melhorada.
  
 | **Média de tempo** | **Média de ações** | **Quantidade de erros** |
 |--------------------|---------------------|--------------------------|
@@ -90,7 +90,7 @@ Usuários apontaram a ausência de mensagens de confirmação e de campo para co
  
 ### Plano de Correção
  
-Com base nas observações feitas acima, sugerem-se os seguintes aprimoramentos:
+Com base nas observações feitas acima, sugerimos os seguintes aprimoramentos:
  
 #### Cadastro do Barbeiro
 - Padronizar mensagens de erro/alerta para o idioma português.
@@ -98,7 +98,7 @@ Com base nas observações feitas acima, sugerem-se os seguintes aprimoramentos:
  
 #### Cadastro do Cliente
 - Adicionar campo de confirmação de senha.
-- Colocar mensagem de confirmação de cadastro realizado com sucesso.
+- Colocar mensagem de confirmação de que o cadastro foi realizado com sucesso.
  
 #### Busca de Barbearias
 - Adicionar botão de busca explícito.
