@@ -1,12 +1,37 @@
 # Template Padrão da Aplicação
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>
+![logoP](https://github.com/user-attachments/assets/2818ba2b-77d7-47c3-9682-32a9c94df025)
 
-Layout padrão da aplicação que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
 
-> **Links Úteis**:
->
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+O design principal do site foi elaborado utilizando as linguagens de marcação HTML e CSS, juntamente com as linguagens de programação JavaScript e C#. Também foram utilizados os frameworks Entity Framework e Bootstrap. As páginas seguirão um padrão visual comum, contendo elementos como o menu de navegação, o cabeçalho (header), o rodapé (footer), além dos componentes de identidade visual descritos a seguir:
+
+- Cores:
+
+![paleta](https://github.com/user-attachments/assets/f4bfe604-8b05-4005-9dc8-3023718c3638)
+
+ <br>
+ <br>
+  <br>
+ <br>
+- Tipografia:
+ <br>
+ <br>
+
+  
+
+![Group 1](https://github.com/user-attachments/assets/76335eef-0350-4d43-b085-dcdb528aa1f4)
+
+ <br>
+ <br> <br>
+ <br>
+-Template padrão de telas:
+
+
+
+![template padrao](https://github.com/user-attachments/assets/cad919a0-3a50-4cd4-b236-80ac4aaf3d1b)
+
+ <br>
+ <br> <br>
+ <br>
+
+ O template de alta fidelidade pode ser consultado no <a href="https://www.figma.com/design/iYfb6PELBJVl0BxEFPHFvw/Front-page?node-id=45-7&t=hJH2aEigI6jgvX1h-1">Figma</a>.

@@ -1,87 +1,107 @@
-# Registro de Testes de Usabilidade
+#  Relatório dos Testes de Usabilidade
 
-O registro de testes de usabilidade é um documento ou planilha onde são coletadas e organizadas as informações sobre a experiência dos usuários ao interagir com um sistema. Ele inclui dados como tempo de execução de tarefas, taxa de sucesso, dificuldades encontradas, erros cometidos e _feedback_ dos usuários. Esse registro permite identificar padrões de uso, obstáculos/dificuldades encontrados na interface e oportunidades de melhoria, fornecendo _insights_ quantitativos e qualitativos para otimizar a experiência do usuário. Além disso, serve como base para análises, correções e futuras iterações do sistema, garantindo que ele atenda às necessidades do público-alvo de forma eficiente.
+**Resumo:**  
+Os testes de usabilidade foram realizados de forma presencial. Abaixo estão os resultados organizados por caso de teste.
 
-## Perfil dos usuários que participaram do teste
-- Usuário 1: 45 anos, nível básico incompleto, conhecimento básico tecnologia
-- Usuário 2: 18 anos, nível superior incompleto, conhecimento avançado tecnologia
-- Usuário 1: 70 anos, nível básico incompleto, conhecimento básico tecnologia
-- Usuário 2: 25 anos, nível superior completo, conhecimento avançado tecnologia
-- Usuário 2: 28 anos, nível superior completo, conhecimento avançado tecnologia
+---
 
-## Exemplo de tabela de registro dos testes de usabilidade  
+## CTU-01: Cadastro do Barbeiro
 
-Para registrar os indicadores de cada cenário, é preciso manter a coerência com os critérios quantitativos e qualitativos que foram definidos no plano de testes de usabilidade.
+| **Usuário** | **Caso de Teste** | **Tempo** | **Ações** | **Erros** | **Recuperação** | **Comentários e Observações** |
+|-------------|-------------------|-----------|-----------|-----------|------------------|-------------------------------|
+| Usuário 1   | CT-02             | 00:00:52  | 18        | 0         | ---              | As mensagens de alerta deveriam estar em português. |
+| Usuário 2   | CT-02             | 00:02:21  | 20        | 0         | ---              | Cadastro considerado intuitivo. |
+| Usuário 3   | CT-02             | 00:01:43  | 21        | 1         | Sim              | Confundiu o campo “Cidade” com o endereço. |
 
-**Cenário 1**: O usuário deseja comprar um notebook para uso pessoal. Para isso, ele deverá entrar no site www.compras.com.br para buscar opções disponíveis, comparar preços, adicionar o produto ao carrinho e finalizar a compra com pagamento via cartão de crédito.         
-| **Usuário**   | **Tempo Total (seg)** | **Quantidade de cliques** | **Tarefa foi concluída?** (Sim/Não) | **Erros Cometidos** | **Feedback do Usuário** |
-|-------------|--------------------|---------------------------------|-----------------|------------------------|------------------------------|
-| Usuário 1    |                    |                                 |                 |                        |                              |                     |      
-| Usuário 2    |                    |                                 |                 |                        |                              |                     |      
-| Usuário 3    |                    |                                 |                 |                        |                              |                     |  
-| Usuário 4    |                    |                                 |                 |                        |                              |                     | 
-| Usuário 5    |                    |                                 |                 |                        |                              |                     | 
+---
 
-**Cenário 2**:         
-| **Usuário**  | **Tempo Total (seg)** | **Quantidade de cliques** | **Tarefa foi concluída?** (Sim/Não) | **Erros Cometidos** | **Feedback do Usuário** |
-|-------------|--------------------|---------------------------------|-----------------|------------------------|------------------------------|
-| Usuário 1   |                    |                                 |                 |                        |                              |                     |      
-| Usuário 2   |                    |                                 |                 |                        |                              |                     |      
-| Usuário 3   |                    |                                 |                 |                        |                              |                     |  
-| Usuário 4   |                    |                                 |                 |                        |                              |                     | 
-| Usuário 5   |                    |                                 |                 |                        |                              |                     | 
+## CTU-02: Cadastro do Cliente
 
-**Cenário 3**:         
-| **Usuário**  | **Tempo Total (seg)** | **Quantidade de cliques** | **Tarefa foi concluída?** (Sim/Não) | **Erros Cometidos** | **Feedback do Usuário** |
-|-------------|--------------------|---------------------------------|-----------------|------------------------|------------------------------|
-| Usuário 1   |                    |                                 |                 |                        |                              |                     |      
-| Usuário 2   |                    |                                 |                 |                        |                              |                     |      
-| Usuário 3   |                    |                                 |                 |                        |                              |                     |  
-| Usuário 4   |                    |                                 |                 |                        |                              |                     | 
-| Usuário 5   |                    |                                 |                 |                        |                              |                     | 
+| **Usuário** | **Caso de Teste** | **Tempo** | **Ações** | **Erros** | **Recuperação** | **Comentários e Observações** |
+|-------------|-------------------|-----------|-----------|-----------|------------------|-------------------------------|
+| Usuário 1   | CT-01             | 00:00:40  | 6         | 1         | Sim              | Digitou a senha no campo "Cidade"; sentiu falta de confirmação de conta criada. |
+| Usuário 2   | CT-01             | 00:00:32  | 6         | 0         | ---              | Faltou uma mensagem de “Cadastro realizado com sucesso.” |
+| Usuário 3   | CT-01             | 00:00:28  | 6         | 0         | ---              | Sentiu falta de um campo para confirmação de senha. |
 
-**Cenário 4**:         
-| **Usuário**  | **Tempo Total (seg)** | **Quantidade de cliques** | **Tarefa foi concluída?** (Sim/Não) | **Erros Cometidos** | **Feedback do Usuário** |
-|-------------|--------------------|---------------------------------|-----------------|------------------------|------------------------------|
-| Usuário 1   |                    |                                 |                 |                        |                              |                     |      
-| Usuário 2   |                    |                                 |                 |                        |                              |                     |      
-| Usuário 3   |                    |                                 |                 |                        |                              |                     |  
-| Usuário 4   |                    |                                 |                 |                        |                              |                     | 
-| Usuário 5   |                    |                                 |                 |                        |                              |                     | 
+---
 
-**Cenário 5**:         
-| **Usuário**  | **Tempo Total (seg)** | **Quantidade de cliques** | **Tarefa foi concluída?** (Sim/Não) | **Erros Cometidos** | **Feedback do Usuário** |
-|-------------|--------------------|---------------------------------|-----------------|------------------------|------------------------------|
-| Usuário 1   |                    |                                 |                 |                        |                              |                     |      
-| Usuário 2   |                    |                                 |                 |                        |                              |                     |      
-| Usuário 3   |                    |                                 |                 |                        |                              |                     |  
-| Usuário 4   |                    |                                 |                 |                        |                              |                     | 
-| Usuário 5   |                    |                                 |                 |                        |                              |                     | 
+## CTU-03: Busca de Barbearias
 
-## Relatório dos testes de usabilidade 
+| **Usuário** | **Caso de Teste** | **Tempo** | **Ações** | **Erros** | **Recuperação** | **Comentários e Observações** |
+|-------------|-------------------|-----------|-----------|-----------|------------------|-------------------------------|
+| Usuário 1   | CT-03             | 00:00:10  | 1         | 0         | ---              | --- |
+| Usuário 2   | CT-03             | 00:00:10  | 1         | 0         | ---              | Sentiu falta de selecionar a localidade. |
+| Usuário 3   | CT-03             | 00:00:08  | 1         | 0         | ---              | Esperava um botão de “Buscar” para realizar a pesquisa. |
 
-O relatório de testes de usabilidade deve ser um documento claro e estruturado, contendo análises dos testes realizados, identificação de problemas, propostas de correção, melhorias e sugestões para a evolução do sistema. 
-Ele servirá como base para refinamentos no sistema e futuras iterações de testes.
-Deve incluir: 
-- Taxa de sucesso por cenário
-- Tempo médio para completar cada cenário
-- Número médio de erros cometidos por tarefa
-- Taxa de abandono (usuários que não conseguiram concluir a tarefa do cenário)
-- Feedback qualitativo
-  
-A partir disso, organize os resultados e identifique padrões:
-- Principais dificuldades enfrentadas pelos usuários.
-- Quais tarefas foram concluídas sem problemas e quais apresentaram falhas.
-- Sugestões de melhorias para interface, navegação e acessibilidade.
+---
 
-Dica: Agrupe problemas em níveis de prioridade:
-- Crítico: Impede o uso do sistema.
-- Moderado: Dificulta a experiência, mas não impede o uso.
-- Leve: Pode ser melhorado, mas não compromete a usabilidade.
+## CTU-04: Login
 
-Apresente propostas de ações para corrigir os problemas críticos e recorrentes identificados e proponha melhorias incrementais para otimizar a experiência do usuário.
+| **Usuário** | **Caso de Teste** | **Tempo** | **Ações** | **Erros** | **Recuperação** | **Comentários e Observações** |
+|-------------|-------------------|-----------|-----------|-----------|------------------|-------------------------------|
+| Usuário 1   | CT-04             | 00:00:17  | 3         | 0         | ---              | --- |
+| Usuário 2   | CT-04             | 00:00:24  | 3         | 0         | ---              | --- |
+| Usuário 3   | CT-04             | 00:00:14  | 3         | 0         | ---              | --- |
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Registro de Testes de Usabilidade”.
+---
 
-> **Links Úteis**:
-> - [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+# Relatório dos Testes de Usabilidade
+ 
+### Observações
+ 
+Após a execução presencial dos testes de usabilidade, foi possível observar pontos positivos e oportunidades de melhoria na interface e na navegação da aplicação. As análises foram baseadas no tempo necessário para realizar as tarefas, na quantidade de ações, quantidade de erros e observações relatadas pelos participantes.
+ 
+---
+ 
+### Relatório
+ 
+Durante os testes, avaliou-se o desempenho dos usuários em diferentes caminhos, buscando focar na clareza da interface, entendimento dos campos e facilidade na realização das ações.
+ 
+#### Testes que obtiveram resultados satisfatórios
+ 
+Nos testes **CTU-03 (Busca de Barbearias)** e **CTU-04 (Login)**, os usuários concluíram suas tarefas com tempo curto, pequeno número de ações e sem cometer erros. Ainda que tenham sido feitors pequenos comentários, o desempenho geral é bom.
+ 
+| **Caso de Teste**   | **Média de tempo** | **Média de ações** | **Quantidade de erros** |
+|---------------------|--------------------|---------------------|--------------------------|
+| CTU-03: Busca       | 00:00:10           | 1                   | 0                        |
+| CTU-04: Login       | 00:00:18           | 3                   | 0                        |
+ 
+---
+ 
+#### Testes que obtiveram resultados não satisfatórios
+ 
+**CTU-01: Cadastro do Barbeiro**
+ 
+Alguns usuários relataram erros com os campos de preenchimento e a linguagem das mensagens. Porém, o número de erros foi bem baixo, a clareza da interface pode ser melhorada.
+ 
+| **Média de tempo** | **Média de ações** | **Quantidade de erros** |
+|--------------------|---------------------|--------------------------|
+| 00:01:39           | 19.7                | 1                        |
+ 
+**CTU-02: Cadastro do Cliente**
+ 
+Usuários apontaram a ausência de mensagens de confirmação e de campo para confirmação de senha como pontos negativos. Isso afetou diretamente na segurança percebida no cadastro.
+ 
+| **Média de tempo** | **Média de ações** | **Quantidade de erros** |
+|--------------------|---------------------|--------------------------|
+| 00:00:33           | 6                   | 1                        |
+ 
+---
+ 
+### Plano de Correção
+ 
+Com base nas observações feitas acima, sugerimos os seguintes aprimoramentos:
+ 
+#### Cadastro do Barbeiro
+- Padronizar mensagens de erro/alerta para o idioma português.
+- Reavisar os rótulos dos campos para evitar confusão, como no campo “Cidade”.
+ 
+#### Cadastro do Cliente
+- Adicionar campo de confirmação de senha.
+- Colocar mensagem de confirmação de que o cadastro foi realizado com sucesso.
+ 
+#### Busca de Barbearias
+- Adicionar botão de busca explícito.
+- Permitir ao usuário definir a sua cidade antes da pesquisa.
+ 
+Essas mudanças visam tornar a navegação mais clara e reduzir dúvidas dos usuários, melhorando a eficiência e a usabilidade geral com a aplicação.
