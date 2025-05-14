@@ -47,16 +47,25 @@ namespace Hairday.Controllers
                 return View(model);
 
             var servicosSelecionados = model.ServicosDisponiveis
-                .Where(s => s.Selecionado && s.Preco.HasValue)
-                .Select(s => new Servico
-                {
-                    nome_servico = s.NomeServico,
-                    preco = s.Preco.Value,
-                    CPF_barbeiro = model.CPF_barbeiro,
-                    CNPJ_barbearia = model.CNPJ_barbearia
-                }).ToList();
+                            .Where(s => s.Selecionado && s.Preco.HasValue)
+                            .ToList();
 
-            _context.Servicos.AddRange(servicosSelecionados);
+            if (!servicosSelecionados.Any())
+            {
+                ModelState.AddModelError("", "Selecione pelo menos um serviço e defina um preço.");
+                return View(model);
+            }
+
+            // Mapeia para entidades do banco
+            var servicosParaSalvar = servicosSelecionados.Select(s => new Servico
+            {
+                nome_servico = s.NomeServico,
+                preco = s.Preco.Value,
+                CPF_barbeiro = model.CPF_barbeiro,
+                CNPJ_barbearia = model.CNPJ_barbearia
+            }).ToList();
+
+            _context.Servicos.AddRange(servicosParaSalvar);
             await _context.SaveChangesAsync();
 
             return RedirectToAction("Index", "Servico");
