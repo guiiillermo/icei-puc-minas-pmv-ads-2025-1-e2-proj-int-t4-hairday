@@ -6,36 +6,32 @@
 }
 
 <main>
-        <h2 class="title">Defina os serviços oferecidos e seus preços</h2>
-        <div class="main-container">
-            <form asp-action="Create" method="post">
-                <div class="form-container">
-                    <input type="hidden" asp-for="CPF_barbeiro" />
-                    <input type="hidden" asp-for="CNPJ_barbearia" />
+    <h2 class="title">Defina os serviços oferecidos e seus preços</h2>
+    <div class="main-container">
+        <form asp-action="Create" method="post">
+            <div class="form-container">
+                @Html.HiddenFor(m => m.CPF_barbeiro)
+                @Html.HiddenFor(m => m.CNPJ_barbearia)
 
-                    @for (int i = 0; i < Model.ServicosDisponiveis.Count; i++)
-                    {
-                        <div class="form-check">
-                            <input type="checkbox" class="form-check-input"
-                                   asp-for="ServicosDisponiveis[@i].Selecionado" />
-                            <label class="form-check-label">
-                                @Model.ServicosDisponiveis[i].NomeServico
-                            </label>
+                @for (int i = 0; i < Model.ServicosDisponiveis.Count; i++)
+                {
+                    <div class="form-check mb-3">
+                        @Html.CheckBoxFor(m => m.ServicosDisponiveis[i].Selecionado, new { @class = "form-check-input" })
+                        <label class="form-check-label">
+                            @Model.ServicosDisponiveis[i].NomeServico
+                        </label>
 
-                            <input type="hidden" asp-for="ServicosDisponiveis[@i].NomeServico" />
+                        @Html.HiddenFor(m => m.ServicosDisponiveis[i].NomeServico)
 
-                            <div class="form-group mt-1">
-                                <label>Preço:</label>
-                                <input asp-for="ServicosDisponiveis[@i].Preco"
-                                       class="form-control"
-                                       type="number"
-                                       step="0.01" />
-                            </div>
+                        <div class="form-group mt-1">
+                            <label>Preço:</label>
+                            @Html.TextBoxFor(m => m.ServicosDisponiveis[i].Preco, new { @class = "form-control", type = "number", step = "0.01" })
                         </div>
-                    }
+                    </div>
+                }
 
-                    <button type="submit">Salvar Serviços</button>
-                </div>
-            </form>
-        </div>
-    </main>
+                <button type="submit" class="btn btn-primary">Salvar Serviços</button>
+            </div>
+        </form>
+    </div>
+</main>
