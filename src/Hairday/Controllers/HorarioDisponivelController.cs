@@ -26,13 +26,25 @@ namespace Hairday.Controllers
             return View(viewModel);
         }
 
-        // POST
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(HorarioDisponivelViewModel model)
         {
             if (!ModelState.IsValid)
             {
+                return View(model);
+            }
+
+            // Verificações adicionais de formulário vazio
+            if (model.DiasSelecionados == null || !model.DiasSelecionados.Any())
+            {
+                ModelState.AddModelError("", "Selecione pelo menos um dia da semana.");
+                return View(model);
+            }
+
+            if (model.HorariosSelecionados == null || !model.HorariosSelecionados.Any())
+            {
+                ModelState.AddModelError("", "Selecione pelo menos um horário disponível.");
                 return View(model);
             }
 
@@ -65,7 +77,7 @@ namespace Hairday.Controllers
             await _context.SaveChangesAsync();
 
             return RedirectToAction("Create", "Servico", new { cpf = model.CPF_barbeiro });
-
         }
+
     }
 }
