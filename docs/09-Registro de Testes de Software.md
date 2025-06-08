@@ -5,6 +5,26 @@
 |	Requisito Associado 	| RF-002 - O sistema deve permitir que os barbeiros se cadastrem com nome, especialidade, barbearia e horários disponíveis.	|
 |	Plano de teste Associado 	| CT-02 Cadastrar perfil do barbeiro |
 
+| **Caso de Teste** 	| **CT07 – Reagendar horários como barbeiro** 	|
+|:---:	|:---:	|
+|Pré-condições | Estar logado tendo um cadastro como barbeiro. |
+| Procedimento (passo à passo)	|  1) Logar como barbeiro para acessar a página de agendamentos <br> 2) Clicar em um horário agendado para exibição dos detalhes de agendamento <br> 3) Clicar em remarcar para exibição dos horários disponíveis para remarcação <br> 4) Escolher um novo horário <br> 5) Confirmar a remarcação.|
+| Dados de entrada	| 08/06/2025 - 20h:30  |
+|Resultado esperado (RE) | Mensagem de sucesso informando que o horário foi remarcado. |
+| Resultado obtido (RO) 	| Mensagem foi exibida após o sucesso da execução 	|
+| Avaliação (pegou / não pegou erro) 	| RE = Não pegou erro <br> RO = Não pegou erro 	|
+| Evidência  	| ![Capturar3](https://github.com/user-attachments/assets/c8151c23-6229-448e-8922-ff5fdb0e90cc)|
+
+| **Caso de Teste** 	| **CT08 – Cancelar horários como barbeiro**	|
+|:---:	|:---:	|
+|Pré-condições | Estar logado tendo um cadastro como barbeiro. |
+| Procedimento (passo à passo)	|  1) Logar como barbeiro para acessar a página de agendamentos <br> 2) Clicar em um horário agendado para exibição dos detalhes de agendamento <br> 3) Clicar em cancelar para anular um agendamento|
+| Dados de entrada	| 08/06/2025 - 20h:45   |
+|Resultado esperado (RE) | Mensagem de sucesso informando que o horário foi cancelado. |
+| Resultado obtido (RO) 	| Mensagem foi exibida após o sucesso do cancelamento 	|
+| Avaliação (pegou / não pegou erro) 	| RE = Não pegou erro <br> RO = Não pegou erro 	|
+| Evidência  	|![Capturar4](https://github.com/user-attachments/assets/45816f11-0cb5-4d3c-896a-8f4fe08cf396)|
+
 Registro de evidência  CT- 01
 
 https://github.com/user-attachments/assets/d61a17f6-fb43-4101-aa6a-17bfcfae17a9
@@ -72,3 +92,23 @@ https://github.com/user-attachments/assets/37862251-e82a-40e7-95bc-e8dd7a6f49b7
 |	Avaliação | Não foram encontrados desvios ou erros no funcionamento da página. |
 | Análise crítica | Pode ser necessária um feedback para que o usuário saiba que o login foi realizado com sucesso. |
 | Oportunidade de melhoria | Aprender como fazer notificações para o usuario. |
+
+
+| **Caso de Teste** 	| **CT07 – Reagendar horários como barbeiro** 	|
+|Pré-condições | Estar logado tendo um cadastro como barbeiro. |
+| Procedimento (passo à passo)	|  1) Logar como barbeiro para acessar a página de agendamentos <br> 2) Clicar em um horário agendado para exibição dos detalhes de agendamento <br> 3) Clicar em remarcar para exibição dos horários disponíveis para remarcação <br> 4) Escolher um novo horário <br> 5) Confirmar a remarcação.|
+| Dados de entrada	| 08/06/2025 - 20h:30  |
+|Resultado esperado (RE) | Mensagem de sucesso informando que o horário foi remarcado. |
+| Resultado obtido (RO) 	| Mensagem foi exibida após o sucesso da execução 	|
+| Avaliação (pegou / não pegou erro) 	| RE = Não pegou erro <br> RO = Não pegou erro 	|
+| Evidência  	| ![Capturar3](https://github.com/user-attachments/assets/c8151c23-6229-448e-8922-ff5fdb0e90cc)|
+
+
+| **Caso de Teste** 	| **CT08 – Cancelar horários como barbeiro**	|
+|Pré-condições | Estar logado tendo um cadastro como barbeiro. |
+| Procedimento (passo à passo)	|  1) Logar como barbeiro para acessar a página de agendamentos <br> 2) Clicar em um horário agendado para exibição dos detalhes de agendamento <br> 3) Clicar em cancelar para anular um agendamento|
+| Dados de entrada	| 08/06/2025 - 20h:45   |
+|Resultado esperado (RE) | Mensagem de sucesso informando que o horário foi cancelado. |
+| Resultado obtido (RO) 	| Mensagem foi exibida após o sucesso do cancelamento 	|
+| Avaliação (pegou / não pegou erro) 	| RE = Não pegou erro <br> RO = Não pegou erro 	|
+| Evidência  	|![Capturar4](https://github.com/user-attachments/assets/45816f11-0cb5-4d3c-896a-8f4fe08cf396)|
